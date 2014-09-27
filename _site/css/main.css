@@ -85,6 +85,9 @@ blockquote {
   blockquote > :last-child {
     margin-bottom: 0; }
 
+blockquote.strong {
+  color: #2a7ae2; }
+
 /**
  * Code formatting
  */
