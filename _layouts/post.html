@@ -12,6 +12,6 @@ layout: default
     {{ content }}
   </article>
 
-  <p>Всего слов: {{ content | number_of_words }}</p>
+  <p>Слов — {{ content | number_of_words }}, знаков — {{ content | size }}</p>
 
 </div>
