@@ -1,0 +1,18 @@
+{% if include.activeonly == true %}
+{% assign members = site.data.members | where:'active',true | sort: include.sort %}
+{% else %}
+{% assign members = site.data.members | sort: include.sort %}
+{% endif %}
+
+<table>
+{% for member in members %}
+   <tr>
+   <td>{{ member.name }}</td>
+   <td>{{ member.github }}</td>
+   <td><span class="icon  icon--github">
+{% include icons/github-icon.svg %} {% if member.active == true %} ! {% endif %}
+              </span>
+    </td>
+    </tr>
+{% endfor %}
+</table>

@@ -1,0 +1,11 @@
+{% if include.activeonly == true %}
+{% assign wishlist = site.data.wishlist | where:'active',true | sort: include.sort %}
+{% else %}
+{% assign wishlist = site.data.wishlist | sort: include.sort %}
+{% endif %}
+
+{% for wish in wishlist %}
+   <h2><a href='{{ wish.link }}#'>{{ wish.name }}</a>{% if wish.price != null %}, {{ wish.price }}&nbsp;₽{% endif %}</h2>
+   {% if wish.picture != null %}<p><img src="{{ wish.picture }}"/></p>{% endif %}
+   {% if wish.description != null %}<p>{{ wish.description }}</p>{% endif %}
+{% endfor %}

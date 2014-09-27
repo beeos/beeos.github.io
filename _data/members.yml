@@ -1,0 +1,19 @@
+- name: Ivan Bessarabov
+  github: bessarabov
+  active: true
+
+- name: Dmitry Kalinnikov
+  github: beeos
+  active: true
+
+- name: Some Guy
+  github: someguy
+
+- name: Tom Preston-Werner
+  github: mojombo
+
+- name: Parker Moore
+  github: parkr
+
+- name: Liu Fengyun
+  github: liufengyun

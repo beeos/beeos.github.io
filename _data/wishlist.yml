@@ -1,0 +1,15 @@
+- name: Бинокль Yukon 3050
+  description: >
+    Любовь к природе + плохое зрение. Придется самостоятельно 
+    пытаться выбрать такую непростую вещь, как бинокль.
+  link: http://www.4glaza.ru/products/yukon3050/
+  picture: http://cdn.4glaza.ru/images/products/large/0/yukon3050.gif
+  price: 4900
+  active: true
+
+
+- name: Пульсометр
+  description: >
+    Абсолютно любой пульсометр
+  price: 2000
+  active: true
