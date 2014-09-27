@@ -22,6 +22,24 @@ print_hi('Tom')
 
 {% include wishlist.html sort='price' activeonly=true %}
 
+> A nice blockquote with several simple highlights and **definitions**
+> 
+> _— John Doe_
+{: .highlight }
+
+term
+: definition
+: <del>another</del> definition
+
+This is an HTML
+example.
+
+*[HTML]: Hyper Text Markup Language
+
+{{ page.date | localize: "%d %B %Y" }}
+
+![image](http://placehold.it/350x150)
+
 <ul>
 {% for member in site.data.members | sort: 'github' %}
   <li>

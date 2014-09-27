@@ -11,5 +11,11 @@
 - name: Пульсометр
   description: >
     Абсолютно любой пульсометр
-  price: 2000
+  active: true
+
+
+- name: Подарочные карты iTunes 
+  description: >
+    Нужны всегда, на любую сумму
+  link: http://www.apple.com/ru/itunes/gifts/
   active: true
