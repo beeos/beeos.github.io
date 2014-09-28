@@ -3,6 +3,7 @@ layout: post
 title:  "Relationshit"
 date:   2007-07-05 19:06:37
 author: Дмитрий Калинников
+original: http://kalinnikov.livejournal.com/17923.html
 categories: jekyll update
 ---
 

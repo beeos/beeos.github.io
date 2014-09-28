@@ -4,6 +4,7 @@ title:  "Красивой жизни не существует"
 author: Дмитрий Калинников
 date:   2007-11-09 19:06:37
 categories: jekyll update
+original: http://kalinnikov.livejournal.com/19229.html
 ---
 Один из признаков незрелой личности — вера в то, что деньги способны принести «всё, что хочется».
 
