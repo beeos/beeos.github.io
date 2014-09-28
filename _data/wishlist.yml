@@ -1,12 +1,12 @@
 ---
 - name: Бинокль Yukon 3050
   description: >
-    По странной прихоти судьбы во мне сочетаются любовь к природе и плохое зрение. Очень хочу
+    По странной прихоти судьбы невероятная любовь к природе сочетается во мне с чрезвычайно плохим зрением. Поэтому очень хочу
     биноколь с 18-кратным увеличением. Можно больше. На самом деле, чем больше — тем лучше. 
     Ну и не очень тяжелый, да. А то и так обычно рюкзаки неподъемные. 
   link: http://www.4glaza.ru/products/yukon3050/
   picture: http://cdn.4glaza.ru/images/products/large/0/yukon3050.gif
-  price: 4900
+  price: 4600
   active: yes
   rating: 10
 
@@ -15,6 +15,7 @@
   description: >
     Абсолютно любой пульсометр
   active: yes
+  price: 2000
   rating: 2
 
 
@@ -35,5 +36,6 @@
 - name: Облачный хостинг
   description: >
     [Digital Ocean](http://digitalocean.com) или [Amazon S3](http://aws.amazon.com/s3/) на три месяца и больше
-  active: no
+  active: yes
+  link: '#'
   rating: 100

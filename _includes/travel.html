@@ -1,0 +1,14 @@
+{% if include.country != null %}
+{% assign travel = site.data.travel | where:'country', include.country | group_by:'country' %}
+{% else %}
+{% assign travel = site.data.travel | sort: include.sort | group_by:'country' %}
+{% endif %}
+
+{% for country in travel %}
+   <h3>{{ country.name }}</h3>
+   <ul>
+   {% for place in country.items %}
+   <li>{{ place.city }}{% if place.date != null %}<span class="calm">, {{ place.date | localize: '%b %Y' }}</span>{% endif %}</li>
+   {% endfor %}
+   </ul>
+{% endfor %}

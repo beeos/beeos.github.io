@@ -1,0 +1,153 @@
+---
+## Китай
+- city: Санья
+  country: Китай
+  description: >
+    Зимний предновогодний отпуск на Хайнане 
+  date: 2010-12-01
+  duration: 11
+## СССР
+- {city: Бердянск (Украина), country: СССР}
+- {city: Гагры (Грузия), country: СССР}
+- {city: Киев (Украина), country: СССР}
+- {city: Новый Афон (Абхазия), country: СССР}
+- {city: Сухум (Абхазия), country: СССР}
+
+# Россия
+- {city: Валаам, country: Россия}
+- {city: Великий Новгород, country: Россия}
+- {city: Владимир, country: Россия}
+- {city: Выборг, country: Россия}
+- {city: Изборск, country: Россия}
+- {city: Жигулевск, country: Россия}
+- {city: Казань, country: Россия}
+- {city: Калуга, country: Россия}
+- {city: Кандалакша, country: Россия}
+- {city: Козельск, country: Россия}
+- {city: Кострома, country: Россия}
+- {city: Красная Поляна, country: Россия}
+- {city: Наро-Фоминск, country: Россия}
+- {city: Нижний Новгород, country: Россия}
+- {city: Переяславль Залесский, country: Россия}
+- {city: Петрозаводск, country: Россия}
+- {city: Печоры, country: Россия}
+- {city: Псков, country: Россия}
+- {city: Ростов, country: Россия}
+- {city: Cамара, country: Россия}
+- {city: Санкт-Петербург, country: Россия}
+- {city: Сочи, country: Россия}
+- {city: Суздаль, country: Россия}
+- {city: Тольятти, country: Россия}
+- {city: Тула, country: Россия}
+- {city: Чебоксары, country: Россия}
+- {city: Шлиссельбург, country: Россия}
+- {city: Ярославль, country: Россия}
+
+## Белоруссия
+- {city: Брест, country: Белоруссия}
+- {city: Минск, country: Белоруссия}
+
+## Украина
+- {city: Балаклава, country: Украина}
+- {city: Киев, country: Украина}
+- {city: Нежин, country: Украина}
+- {city: Севастополь, country: Украина}
+- {city: Ялта, country: Украина}
+
+## Вьетнам
+- {city: Далат, country: Вьетнам}
+- {city: Кути, country: Вьетнам}
+- {city: Фантьет, country: Вьетнам}
+- {city: Хошимин (Сайгон), country: Вьетнам}
+
+## Дания
+- {city: Копенгаген, country: Дания}
+- {city: Фреденсборг, country: Дания}
+- {city: Хельсингёр, country: Дания}
+
+## Египет
+- {city: Гиза, country: Египет}
+- {city: Каир, country: Египет}
+- {city: монастырь Св.Екатерины, country: Египет}
+- {city: Шарм-эль-Шейх, country: Египет}
+
+## Израиль
+- {city: Иерусалим, country: Израиль}
+- {city: Эйн-Бокек, country: Израиль}
+
+## Италия
+- {city: Болонья, country: Италия}
+- {city: Венеция, country: Италия}
+- {city: Рим, country: Италия}
+- {city: Римини, country: Италия}
+- {city: Равенна, country: Италия}
+- {city: Триест, country: Италия}
+- {city: Чезена, country: Италия}
+
+## Иордания
+- {city: Маан, country: Иордания}
+- {city: Петра, country: Иордания}
+
+## Куба
+- {city: Варадеро, country: Куба}
+- {city: Карденас, country: Куба}
+- {city: Матансас, country: Куба}
+- {city: Санта-Клара, country: Куба}
+- {city: Сенфуэндоc, country: Куба}
+- {city: Тринидад, country: Куба}
+
+## Кипр
+- {city: Айя-Напа, country: Кипр}
+
+## Палестина
+- {city: Вифлием, country: Палестина}
+
+## США
+- {city: Итака (NY), country: США}
+- {city: Женева (NY), country: США}
+- {city: Ниагара Фолс, country: США}
+- {city: Нью-Йорк, country: США}
+- {city: Рочестер (NY), country: США}
+
+## Турция
+- {city: Гюйнюк, country: Турция}
+- {city: Даламан, country: Турция}
+- {city: Кемер, country: Турция}
+- {city: Куршунлу, country: Турция}
+- {city: Мармарис, country: Турция}
+- {city: Памуккале, country: Турция}
+- {city: Стамбул, country: Турция}
+
+## Таиланд
+- {city: Паттайя, country: Таиланд}
+
+## Франция
+- {city: Гренобль, country: Франция}
+- {city: Куршевель, country: Франция}
+- {city: Шамбери, country: Франция}
+
+## Хорватия
+- {city: Мотовун, country: Хорватия}
+- {city: Пореч, country: Хорватия}
+- {city: Пула, country: Хорватия}
+- {city: Ровинь, country: Хорватия}
+
+## Швейцария
+- {city: Аванш, country: Швейцария}
+- {city: Аскона, country: Швейцария}
+- {city: Берн, country: Швейцария}
+- {city: Женева, country: Швейцария}
+- {city: Интерлакен, country: Швейцария}
+- {city: Локарно, country: Швейцария}
+- {city: Монтрё, country: Швейцария}
+- {city: Роше-де-Не, country: Швейцария}
+- {city: Тун, country: Швейцария}
+- {city: Цюрих, country: Швейцария}
+
+## Швеция
+- {city: Энгельхольм, country: Швеция}
+- {city: Стокгольм, country: Швеция}
+
+## Финляндия
+- {city: Турку, country: Финляндия}
+- {city: Хельсинки, country: Финляндия}

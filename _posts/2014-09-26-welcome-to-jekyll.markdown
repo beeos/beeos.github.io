@@ -21,8 +21,7 @@ print_hi('Tom')
 
 > A nice blockquote with several simple highlights and **definitions**
 > 
-> _— John Doe_
-{: .bright }
+> <small>— John Doe</small>
 
 * * *
 
