@@ -14,32 +14,33 @@
 - {city: Сухум (Абхазия), country: СССР}
 
 # Россия
+- {city: Боровск, country: Россия, date: [ 2014-07-18 ]}
 - {city: Валаам, country: Россия}
 - {city: Великий Новгород, country: Россия}
 - {city: Владимир, country: Россия}
 - {city: Выборг, country: Россия}
-- {city: Изборск, country: Россия}
+- {city: Изборск, country: Россия, date: [ 2014-06-10 ]}
 - {city: Жигулевск, country: Россия, date: [ 2014-05-10 ]}
-- {city: Казань, country: Россия}
-- {city: Калуга, country: Россия}
+- {city: Казань, country: Россия, date: [ 2010-05-10 ]}
+- {city: Калуга, country: Россия, date: [ 2014-07-18 ]}
 - {city: Кандалакша, country: Россия}
-- {city: Козельск, country: Россия}
+- {city: Козельск, country: Россия, date: [ 2014-07-19 ]}
 - {city: Кострома, country: Россия}
 - {city: Красная Поляна, country: Россия}
 - {city: Наро-Фоминск, country: Россия}
 - {city: Нижний Новгород, country: Россия}
 - {city: Переяславль Залесский, country: Россия}
 - {city: Петрозаводск, country: Россия}
-- {city: Печоры, country: Россия}
-- {city: Псков, country: Россия}
+- {city: Печоры, country: Россия, date: [ 2014-06-10 ]}
+- {city: Псков, country: Россия, date: [ 2014-06-10 ]}
 - {city: Ростов, country: Россия}
-- {city: Cамара, country: Россия}
+- {city: Cамара, country: Россия, date: [ 2014-05-10 ]}
 - {city: Санкт-Петербург, country: Россия}
 - {city: Сочи, country: Россия}
 - {city: Суздаль, country: Россия}
-- {city: Тольятти, country: Россия}
+- {city: Тольятти, country: Россия, date: [ 2014-05-10 ]}
 - {city: Тула, country: Россия}
-- {city: Чебоксары, country: Россия}
+- {city: Чебоксары, country: Россия, date: [ 2010-05-10 ]}
 - {city: Шлиссельбург, country: Россия}
 - {city: Ярославль, country: Россия}
 
