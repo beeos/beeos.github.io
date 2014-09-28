@@ -1,29 +1,39 @@
 ---
 - name: Бинокль Yukon 3050
   description: >
-    Любовь к природе + плохое зрение. Придется самостоятельно 
-    пытаться выбрать такую непростую вещь, как бинокль.
+    По странной прихоти судьбы во мне сочетаются любовь к природе и плохое зрение. Очень хочу
+    биноколь с 18-кратным увеличением. Можно больше. На самом деле, чем больше — тем лучше. 
+    Ну и не очень тяжелый, да. А то и так обычно рюкзаки неподъемные. 
   link: http://www.4glaza.ru/products/yukon3050/
   picture: http://cdn.4glaza.ru/images/products/large/0/yukon3050.gif
   price: 4900
-  active: true
+  active: yes
+  rating: 10
 
 
 - name: Пульсометр
   description: >
     Абсолютно любой пульсометр
-  active: true
+  active: yes
+  rating: 2
 
 
 - name: Подарочные карты iTunes 
   description: >
     Нужны всегда, на любую сумму
-  link: http://www.apple.com/ru/itunes/gifts/
-  active: true
+  link: https://money.yandex.ru/games/shop.xml?scid=5503
+  active: yes
+  rating: 1
 
 
 - name: Спортивный шейкер
   description: >
     Самый простой стакан для спортивного питания
-  # link: http://www.apple.com/ru/itunes/gifts/
-  active: true
+  active: yes
+  rating: 3
+
+- name: Облачный хостинг
+  description: >
+    [Digital Ocean](http://digitalocean.com) или [Amazon S3](http://aws.amazon.com/s3/) на три месяца и больше
+  active: no
+  rating: 100

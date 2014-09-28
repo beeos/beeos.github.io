@@ -4,4 +4,4 @@ title: Вишлист
 permalink: /wishlist/
 ---
 
-{% include wishlist.html sort='price' activeonly=true %}
+{% include wishlist.html sort='rating' activeonly=true %}
