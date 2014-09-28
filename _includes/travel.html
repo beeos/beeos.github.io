@@ -8,7 +8,7 @@
    <h3>{{ country.name }}</h3>
    <ul>
    {% for place in country.items %}
-   <li>{{ place.city }}{% if place.date != null %}<span class="calm">, {{ place.date | localize: '%b %Y' }}</span>{% endif %}</li>
+   <li>{{ place.city }}{% if place.date != null %}{% for date in place.date | sort %}<span class="calm">, {{ date | localize: '%b <b>%Y</b>' }}</span>{% endfor %}{% endif %}</li>
    {% endfor %}
    </ul>
 {% endfor %}
