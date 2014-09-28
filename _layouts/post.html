@@ -7,11 +7,10 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | localize: "%d %B %Y" }}{% if page.author %} • <a title="Оригинал публикации: {{ page.original }}" href="{{page.original}}">{{ page.author }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
-
   <article class="post-content">
     {{ content }}
   </article>
 
-  <p>Слов — {{ content | number_of_words }}, знаков — {{ content | size }}</p>
+  <p class="calm right">Слов — {{ content | number_of_words }}, знаков — {{ content | size }}</p>
 
 </div>
