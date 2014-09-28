@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wishlist
+title: Вишлист
 permalink: /wishlist/
 ---
 

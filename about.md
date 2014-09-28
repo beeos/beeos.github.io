@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Кто здесь?
 permalink: /about/
 ---
 

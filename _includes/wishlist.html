@@ -5,7 +5,12 @@
 {% endif %}
 
 {% for wish in wishlist %}
-   <h2><a href='{{ wish.link }}#'>{{ wish.name }}</a>{% if wish.price != null %}, {{ wish.price }}&nbsp;₽{% endif %}</h2>
+{% if wish.link == null %}
+{% assign uri = 'http://yandex.ru/yandsearch?text=' | append:wish.name %}
+{% else %}
+{% assign uri = wish.link %}
+{% endif %}
+   <h2><a href='{{ uri }}'>{{ wish.name }}</a>{% if wish.price != null %}, {{ wish.price }}&nbsp;₽{% endif %}</h2>
    {% if wish.picture != null %}<p><img src="{{ wish.picture }}"/></p>{% endif %}
    {% if wish.description != null %}<p>{{ wish.description }}</p>{% endif %}
 {% endfor %}

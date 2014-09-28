@@ -120,8 +120,16 @@ blockquote {
     }
 }
 
-blockquote.strong {
+blockquote.bright {
     color: $brand-color;
+}
+
+blockquote.right {
+    float: right;
+}
+
+blockquote.left {
+    float: left;
 }
 
 

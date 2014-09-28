@@ -1,3 +1,4 @@
+---
 - name: Бинокль Yukon 3050
   description: >
     Любовь к природе + плохое зрение. Придется самостоятельно 
@@ -18,4 +19,11 @@
   description: >
     Нужны всегда, на любую сумму
   link: http://www.apple.com/ru/itunes/gifts/
+  active: true
+
+
+- name: Спортивный шейкер
+  description: >
+    Самый простой стакан для спортивного питания
+  # link: http://www.apple.com/ru/itunes/gifts/
   active: true

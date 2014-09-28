@@ -19,22 +19,12 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-
-{% include wishlist.html sort='price' activeonly=true %}
-
 > A nice blockquote with several simple highlights and **definitions**
 > 
 > _— John Doe_
-{: .strong }
+{: .bright }
 
-term
-: definition
-: <del>another</del> definition
-
-This is an HTML
-example.
-
-*[HTML]: Hyper Text Markup Language
+* * *
 
 {{ page.date | localize: "%d %B %Y" }}
 
