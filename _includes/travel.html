@@ -1,4 +1,6 @@
-{% if include.country != null %}
+{% if include.country == 'Реки' %}
+{% assign travel = site.data.rivers | sort: 'date' | group_by:'country' %}
+{% elsif include.country != null %}
 {% assign travel = site.data.travel | where:'country', include.country | sort: include.sort | group_by:'country' %}
 {% else %}
 {% assign travel = site.data.travel | sort: include.sort | group_by:'country' %}
