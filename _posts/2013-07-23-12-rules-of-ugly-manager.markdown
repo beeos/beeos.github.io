@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  '12 правил плохого менеджера'
-date:   2014-09-26 19:06:37
+date:   2013-07-23 19:06:37
 author: Дмитрий Калинников
 original: http://habrahabr.ru/company/adv/blog/187566/
 ---
