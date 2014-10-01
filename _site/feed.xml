@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Дмитрий Калинников</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Человек человеку кот</title>
+    <description>Бортовой журнал, дневник, дворец памяти, управление знаниями,  избавление от ненужных вещей, мысли на вольные темы
 </description>
     <link>http://www.kalinnikov.ru/</link>
     <atom:link href="http://www.kalinnikov.ru/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 27 Sep 2014 20:45:35 +0400</pubDate>
-    <lastBuildDate>Sat, 27 Sep 2014 20:45:35 +0400</lastBuildDate>
+    <pubDate>Wed, 01 Oct 2014 13:50:41 +0400</pubDate>
+    <lastBuildDate>Wed, 01 Oct 2014 13:50:41 +0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -24,37 +24,15 @@
 &lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h2&gt;&lt;a href=&quot;http://www.apple.com/ru/itunes/gifts/#&quot;&gt;Подарочные карты iTunes&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Нужны всегда, на любую сумму
-&lt;/p&gt;
-
-&lt;h2&gt;&lt;a href=&quot;#&quot;&gt;Пульсометр&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Абсолютно любой пульсометр
-&lt;/p&gt;
-
-&lt;h2&gt;&lt;a href=&quot;http://www.4glaza.ru/products/yukon3050/#&quot;&gt;Бинокль Yukon 3050&lt;/a&gt;, 4900&amp;nbsp;₽&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://cdn.4glaza.ru/images/products/large/0/yukon3050.gif&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Любовь к природе + плохое зрение. Придется самостоятельно  пытаться выбрать такую непростую вещь, как бинокль.
-&lt;/p&gt;
-
-&lt;blockquote class=&quot;strong&quot;&gt;
+&lt;blockquote&gt;
   &lt;p&gt;A nice blockquote with several simple highlights and &lt;strong&gt;definitions&lt;/strong&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;em&gt;— John Doe&lt;/em&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;small&gt;— John Doe&lt;/small&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;dl&gt;
-  &lt;dt&gt;term&lt;/dt&gt;
-  &lt;dd&gt;definition&lt;/dd&gt;
-  &lt;dd&gt;&lt;del&gt;another&lt;/del&gt; definition&lt;/dd&gt;
-&lt;/dl&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;This is an &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt;
-example.&lt;/p&gt;
-
-&lt;p&gt;2014-09-26 23:06:37 +0400&lt;/p&gt;
+&lt;p&gt;26 сентября 2014&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://placehold.it/350x150&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
@@ -206,7 +184,7 @@ used in the bibliography.&lt;/p&gt;
 
 &lt;p&gt;Люди переживают из-за денег, копят их, теряют, завидуют тем, у кого они есть и страдают от того, что не обладают миллионом долларов. Причем, что интересно, вопрос о «достаточном» количестве никогда не ставится: как правило, хотят «чтоб на всё хватало», но спросишь, что это «всё» — начинают унылую песню «машина-квартира-дача-яхта-остров», хотя понятия не имеют, сколько денег необходимо на всё перечисленное, зачем это им &lt;em&gt;на самом деле&lt;/em&gt;, и как они будут со всем этим хозяйством разбираться.&lt;/p&gt;
 
-&lt;p&gt;Сумма доходов не определяет ничего: возможности, способности и богатство внутреннего мира человека существуют безотносительно уровня его доходов. Исключением можно считать только крайнюю бедность, когда человек не может удовлетворить базовые потребности в пище, одежде и крыше над головой.&lt;/p&gt;
+&lt;p&gt;Сумма доходов не определяет &lt;em&gt;ничего&lt;/em&gt;: возможности, способности и богатство внутреннего мира человека существуют безотносительно уровня его доходов. Исключением можно считать только крайнюю бедность, когда человек не может удовлетворить базовые потребности в пище, одежде и крыше над головой.&lt;/p&gt;
 
 &lt;p&gt;Без молотка гвоздь забить проблематично. Имея молоток, можно быстро и хорошо забивать гвозди. Но если у тебя сто молотков вместо одного, это отнюдь не значит, что ты сможешь забивать в сто раз больше гвоздей за единицу времени. Так же, если ты никогда молотка в руках не держал, без разницы, сколько молотков у тебя будет — тебе они без надобности, пока не научишься пользоваться хотя бы одним. А вот когда научишься, позабиваешь им гвозди, — вдруг поймешь, что шурупы лучше и удобнее, и молотки тут уже не помогут. &lt;/p&gt;
 
@@ -234,8 +212,8 @@ used in the bibliography.&lt;/p&gt;
 &lt;p&gt;«Если третий муж бьет вас по роже, значит дело не в муже, а в роже».&lt;/p&gt;
 </description>
         <pubDate>Thu, 05 Jul 2007 23:06:37 +0400</pubDate>
-        <link>http://www.kalinnikov.ru/jekyll/update/2007/07/05/relationshit.html</link>
-        <guid isPermaLink="true">http://www.kalinnikov.ru/jekyll/update/2007/07/05/relationshit.html</guid>
+        <link>http://www.kalinnikov.ru/jekyll/update/2007/07/05/2007-07-05-relationshit.html</link>
+        <guid isPermaLink="true">http://www.kalinnikov.ru/jekyll/update/2007/07/05/2007-07-05-relationshit.html</guid>
         
         
         <category>jekyll</category>
