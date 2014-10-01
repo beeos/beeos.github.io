@@ -1,9 +1,11 @@
 # Site settings
-title: Человек человеку кот
+title: Секреты управления
+subtitle: Знания. Вещи. Технологии
+author: Дмитрий Калинников
 email: dmitry@kalinnikov.ru
 description: > # this means to ignore newlines until "baseurl:"
-  Бортовой журнал, дневник, дворец памяти, управление знаниями, 
-  избавление от ненужных вещей, мысли на вольные темы
+  Бортовой журнал, дворец памяти, knowledge management, 
+  избавление от ненужных вещей, рассуждения на вольные темы
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.kalinnikov.ru" # the base hostname & protocol for your site
 twitter_username: beeos
