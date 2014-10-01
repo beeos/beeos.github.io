@@ -1,14 +1,14 @@
 ---
 - name: Бинокль Yukon 3050
   description: >
-    По странной прихоти судьбы невероятная любовь к природе сочетается во мне с чрезвычайно плохим зрением. Поэтому очень хочу
-    биноколь с 18-кратным увеличением. Можно больше. На самом деле, чем больше — тем лучше. 
+    По странной прихоти судьбы любовь к природе сочетается во мне с не вполне хорошим зрением. 
+    Поэтому хочу биноколь с 18-кратным увеличением. Можно больше. На самом деле, чем больше&nbsp;— тем лучше. 
     Ну и не очень тяжелый, да. А то и так обычно рюкзаки неподъемные. 
   link: http://www.4glaza.ru/products/yukon3050/
   picture: http://cdn.4glaza.ru/images/products/large/0/yukon3050.gif
   price: 4600
   active: yes
-  rating: 10
+  rating: 40
 
 
 - name: Пульсометр
@@ -16,7 +16,15 @@
     Абсолютно любой пульсометр
   active: yes
   price: 2000
-  rating: 2
+  rating: 20
+
+- name: Платный аккаунт на Github
+  description: >
+    Последнее время очень активно использую [Github](http://www.github.com), и хочу держать там пару-тройку 
+    закрытых репозиториев. Стоит это от $7 в месяц.
+  active: yes
+  price: 280
+  rating: 5
 
 
 - name: Подарочные карты iTunes 
@@ -31,7 +39,7 @@
   description: >
     Самый простой стакан для спортивного питания
   active: yes
-  rating: 3
+  rating: 30
 
 - name: Облачный хостинг
   description: >
@@ -39,3 +47,9 @@
   active: yes
   link: '#'
   rating: 100
+
+- name: Чайник-термос Leifheit Style 1.5л
+  active: yes
+  picture: http://www.domdom.ru/images/products/3989/main.jpg
+  link: http://www.domdom.ru/categories/435/items/3989/
+  rating: 5

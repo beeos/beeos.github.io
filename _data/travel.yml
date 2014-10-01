@@ -3,8 +3,8 @@
 - city: Санья
   country: Китай
   date: [ 2010-12-01 ]
-  description: >
-    Зимний предновогодний отпуск на Хайнане 
+#  description: >
+#    Зимний предновогодний отпуск на Хайнане 
   duration: 11
 
 ## СССР
@@ -21,7 +21,7 @@
 - {city: Владимир, country: Россия}
 - {city: Выборг, country: Россия}
 - {city: Изборск, country: Россия, date: [ 2014-06-10 ]}
-- {city: Жигулевск, country: Россия, date: [ 2014-05-10 ]}
+- {city: Жигулёвск, country: Россия, date: [ 2014-05-10 ]}
 - {city: Казань, country: Россия, date: [ 2010-05-10 ]}
 - {city: Калуга, country: Россия, date: [ 2014-07-18 ]}
 - {city: Кандалакша, country: Россия}
@@ -40,7 +40,7 @@
 - {city: Сочи, country: Россия}
 - {city: Суздаль, country: Россия}
 - {city: Тольятти, country: Россия, date: [ 2014-05-10 ]}
-- {city: Тула, country: Россия}
+- {city: Тула, country: Россия, date: [2001-01-20]}
 - {city: Чебоксары, country: Россия, date: [ 2010-05-10 ]}
 - {city: Углич, country: Россия, date: [ 2014-03-08 ]}
 - {city: Мышкин, country: Россия, date: [ 2014-03-08 ]}

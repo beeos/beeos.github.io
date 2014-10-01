@@ -11,6 +11,6 @@
 {% assign uri = wish.link %}
 {% endif %}
    <h2><a href='{{ uri }}'>{{ wish.name }}</a>{% if wish.price != null %}<span class="calm">, от {{ wish.price }}&nbsp;₽</span>{% endif %}</h2>
-   {% if wish.picture != null %}<p><img src="{{ wish.picture }}"/></p>{% endif %}
+   {% if wish.picture != null %}<p><a href="{{ uri }}"><img class="wl-picture" src="{{ wish.picture }}"/></a></p>{% endif %}
    {% if wish.description != null %}<p>{{ wish.description | markdownify }}</p>{% endif %}
 {% endfor %}

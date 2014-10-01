@@ -223,11 +223,16 @@ pre {
     text-align: right; 
 }
 
-hr 
-{
+hr {
     height: 0px;
     width: 50%;
     border-top: none;
     border-left: none;
+    border-bottom: 0.1em solid $grey-color-light;
     margin: 1em 0 1em 0;
+}
+
+img.wl-picture {
+    max-width: 50%;
+    max-height: 5em;
 }
