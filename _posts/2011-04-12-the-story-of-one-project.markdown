@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  'Звездный десант: история одного проекта'
-date:   2011-04-12 19:06:37
+date:   2011-04-12 10:23:37
 author: Дмитрий Калинников
 original: http://habrahabr.ru/post/117298/
 originally-posted-at: на Хабре
