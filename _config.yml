@@ -13,3 +13,4 @@ github_username:  beeos
 
 # Build settings
 markdown: kramdown
+gems: [font-awesome-sass]
