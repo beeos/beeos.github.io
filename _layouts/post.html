@@ -11,7 +11,7 @@ layout: default
     {{ content }}
   </article>
 
-  <p class="calm right">Слов — {{ content | number_of_words }}, знаков — {{ content | size }}</p>
+  <p class="calm right">{% icon fa-book %} Слов — {{ content | number_of_words }}, знаков — {{ content | size }}</p>
 
     <!-- div id="disqus_thread"></div>
     <script type="text/javascript">
