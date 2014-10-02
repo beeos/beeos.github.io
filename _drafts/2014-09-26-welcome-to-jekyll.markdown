@@ -6,7 +6,7 @@ categories: docs
 tags: генератор модулятор супинатор
 ---
 
-- T
+1. T
 {:toc}
 
 ## Простые правила
@@ -20,6 +20,8 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 ## Очень сложные правила
 
 Jekyll also offers powerful support for code snippets:
+
+### Наисложнейшие правила
 
 {% highlight ruby linenos %}
 def print_hi(name)
