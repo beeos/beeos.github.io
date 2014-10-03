@@ -15,7 +15,7 @@
    {% else %}
    {% assign dates = null %}
    {% endif %}
-   <li>{{ place.city }}{% if dates != null %}{% for date in dates) %}<span class="calm">, {{ date | date: '%b <b>%Y</b>' | lowercase }}</span>{% endfor %}{% endif %}{% if place.description != null %}<br/><small>{{ place.description }}</small>{% endif %}</li>
+   <li>{{ place.city }}{% if dates != null %}{% for date in dates) %}<span class="calm">, {{ date | date: '%m.<b>%Y</b>' | lowercase }}</span>{% endfor %}{% endif %}{% if place.description != null %}<br/><small>{{ place.description }}</small>{% endif %}</li>
    {% endfor %}
    </ul>
 {% endfor %}
