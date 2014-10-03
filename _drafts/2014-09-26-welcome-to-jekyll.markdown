@@ -6,6 +6,15 @@ categories: docs
 tags: генератор модулятор супинатор
 ---
 
+Define
+: lkasdfj;adsfkjafsd;asdfkl  asasfd;kl af;dja fsd
+
+Again
+: alskjasfd;lkjasfd afsd asdfj; afs;dklf adsj;a fsd a fdsa ;fsdkljf ads;lkjaf  sdk; adfsjafdaf s
+
+    f asdk;adf skljdfa s;lk dsaf
+    fd sajkldfas ;adjkl fsdfs a
+
 1. T
 {:toc}
 
