@@ -9,4 +9,21 @@
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="http://yastatic.net/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    (function($) {
+	$.fn.prettynumber = function(options) {
+		var opts = $.extend({}, $.fn.prettynumber.defaults, options);
+		return this.each(function() {
+			$this = $(this);
+			var o = $.meta ? $.extend({}, opts, $this.data()) : opts;
+			var str = $this.html();
+			$this.html($this.html().toString().replace(new RegExp("(^\\d{"+($this.html().toString().length%3||-1)+"})(?=\\d{3})"),"$1"+o.delimiter).replace(/(\d{3})(?=\d)/g,"$1"+o.delimiter));
+		});
+	};
+	$.fn.prettynumber.defaults = {
+		delimiter       : '<span class="delimiter">.</span>'	
+	};
+	})(jQuery);
+    </script>
 </head>
