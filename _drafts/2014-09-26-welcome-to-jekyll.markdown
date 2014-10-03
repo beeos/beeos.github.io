@@ -5,6 +5,7 @@ date:   2014-09-26 19:06:37
 categories: docs
 tags: генератор модулятор супинатор
 ---
+{% gist parkr/931c1c8d465a04042403 jekyll-private-gist.markdown %}
 
 Define
 : lkasdfj;adsfkjafsd;asdfkl  asasfd;kl af;dja fsd
