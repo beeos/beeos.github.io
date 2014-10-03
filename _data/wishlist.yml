@@ -52,7 +52,7 @@
 - name: Спортивный шейкер
   description: >
     Самый простой стакан для спортивного питания
-  active: yes
+  active: no
   rating: 30
 
 - name: Облачный хостинг
@@ -67,3 +67,9 @@
   picture: http://www.domdom.ru/images/products/3989/main.jpg
   link: http://www.domdom.ru/categories/435/items/3989/
   rating: 5
+
+- name: Sublime Text 3 for Mac
+  active: yes
+  link: https://www.sublimetext.com/buy
+  price: 2800
+  rating: 3
