@@ -96,9 +96,13 @@ a {
         color: darken($brand-color, 15%);
     }
 
-    &:hover {
+    &:hover, &:hover * {
         color: lighten($brand-color, 15%);
         text-decoration: underline;
+    }
+
+    &:hover * {
+        text-decoration: none;
     }
 }
 
@@ -265,4 +269,12 @@ span.delimiter {
 
 .fa-stack {
     margin-right: 0.3em;
+}
+
+.brand-calm {
+    color: lighten($brand-color, 40%);
+}
+
+.inline {
+    margin-left: 0.2em;
 }

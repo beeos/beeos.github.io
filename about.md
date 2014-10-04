@@ -10,4 +10,4 @@ permalink: /about/
 
 На этом сайте я веду [путевые заметки](/travel), [вишлист](/wishlist), а также выкладываю [все, что когда-то писал](/) для публикации в открытом доступе.
 
-Следите за [обновлениями <i class="fa fa-rss-square calm"></i>](/feed.xml).
+Следите за [обновлениями<i class="fa fa-rss-square brand-calm inline"></i>](/feed.xml).
