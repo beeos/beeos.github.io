@@ -27,6 +27,14 @@
         text-decoration: underline;
     };
 
+    #site-icon:hover {
+        color: lighten($brand-color, 35%);
+    };
+
+    #site-icon {
+        color: lighten($brand-color, 15%);
+    }
+
 }
 
 .site-nav {
