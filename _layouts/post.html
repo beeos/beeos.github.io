@@ -11,7 +11,7 @@ layout: default
     {{ content }}
   </article>
 
-  <p class="calm right"><i class="fa fa-eye"></i> Слов — {{ content | number_of_words }}, знаков — {{ content | size }}</p>
+  <p class="calm right"><i class="fa fa-eye"></i> Слов — <span class="number">{{ content | number_of_words }}</span>, знаков — <span class="number">{{ content | size }}</span></p>
 
     <!-- div id="disqus_thread"></div>
     <script type="text/javascript">
