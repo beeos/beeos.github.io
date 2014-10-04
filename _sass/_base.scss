@@ -97,12 +97,14 @@ a {
     }
 
     &:hover {
-        color: $text-color;
+        color: lighten($brand-color, 15%);
         text-decoration: underline;
     }
 }
 
-
+.site-header {
+    background-color: $brand-color;
+}
 
 /**
  * Blockquotes
