@@ -294,3 +294,11 @@ span.delimiter {
 #site-icon:hover {
     color: lighten($brand-color, 35%);
 };
+
+.contact-list li {
+    color: $second-color;
+}
+
+.second-color {
+    color: $second-color;
+}
