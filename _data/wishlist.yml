@@ -1,7 +1,7 @@
 ---
 - name: Бинокль Yukon 3050
   description: >
-    По странной прихоти судьбы любовь к природе сочетается во мне с весьма плохим зрением. 
+    По странной прихоти судьбы, любовь к природе сочетается во мне с чрезвычайно плохим зрением. 
     Поэтому хочу биноколь с 18-кратным увеличением. Можно больше. На самом деле, чем больше&nbsp;— тем лучше. 
     Ну и не очень тяжелый, да. А то и так обычно рюкзаки неподъемные. 
   link: http://www.4glaza.ru/products/yukon3050/
@@ -69,7 +69,18 @@
   rating: 5
 
 - name: Sublime Text 3 for Mac
+  description: > 
+    Спасибо разработчикам: этот редактор работает в бесконечном триальном режиме. Но он настолько хорош, что пора узаконить лицензию.
   active: yes
   link: https://www.sublimetext.com/buy
   price: 2800
   rating: 3
+
+- name: Strida LT
+  description: > 
+    Складной городской велосипед Strida — настоящая находка для мегаполиса. 
+  active: yes
+  price: 25500
+  picture: http://static12.insales.ru/images/products/1/1542/38880774/1366116196794ltorangebig.jpg
+  link: http://dreambikes.ru/product_by_id/32492584
+  rating: 25
