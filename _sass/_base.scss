@@ -275,6 +275,22 @@ span.delimiter {
     color: lighten($brand-color, 40%);
 }
 
+.brand {
+    color: $brand-color;
+}
+
 .inline {
     margin-left: 0.2em;
 }
+
+.rinline {
+    margin-right: 0.2em;
+}
+
+.rinline-small {
+    margin-right: 0.1em;
+}
+
+#site-icon:hover {
+    color: lighten($brand-color, 35%);
+};
