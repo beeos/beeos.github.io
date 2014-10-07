@@ -302,3 +302,7 @@ span.delimiter {
 .second-color {
     color: $second-color;
 }
+
+blockquote p em {
+    text-decoration: none;
+}
