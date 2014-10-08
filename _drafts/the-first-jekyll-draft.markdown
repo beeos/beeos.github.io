@@ -15,7 +15,7 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
   - <i class="fa-li fa fa-twitter brand"></i>[Twitter](https://www.twitter.com/beeos)
   - <i class="fa-li fa fa-weibo brand"></i>[Мой Круг](https://www.twitter.com/beeos)
 
-{% assign items = site.data.wishlist %}
+{% assign items = site.data.locals.months %}
 
 {% for item in items %}
 {{ item.name }}
@@ -26,3 +26,8 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
     {{ item.name }}
 {% endtablerow %}
 </table>
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item #1 :100: emoji works

@@ -6,6 +6,8 @@
 {% assign travel = site.data.travel | sort: include.sort | group_by:'country' %}
 {% endif %}
 
+{% assign months = site.data.locals.months %}
+
 {% for country in travel %}
    <h3>{{ country.name }}</h3>
    <ul>
@@ -15,7 +17,7 @@
    {% else %}
    {% assign dates = null %}
    {% endif %}
-   <li>{{ place.city }}{% if dates != null %}{% for date in dates) %}<span class="calm">, {{ date | date: '%m.<b>%Y</b>' | lowercase }}</span>{% endfor %}{% endif %}{% if place.description != null %}<br/><small>{{ place.description }}</small>{% endif %}</li>
+   <li>{{ place.city }}{% if dates != null %}{% for date in dates) %}{% assign mno = date | date:'%m' %}{% assign month = months | where:'num', mno %}<span class="calm">, {{ month | map:'name' }} {{ date | date: '<b>%Y</b>' | lowercase }}</span>{% endfor %}{% endif %}{% if place.description != null %}<br/><small>{{ place.description }}</small>{% endif %}</li>
    {% endfor %}
    </ul>
 {% endfor %}

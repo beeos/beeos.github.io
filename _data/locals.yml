@@ -1,26 +1,26 @@
 ---
 months:
-  - no: 1
+  - num: '01'
     name: 'январь'
-  - no: 2
+  - num: '02'
     name: 'февраль'
-  - no: 3
+  - num: '03'
     name: 'март'
-  - no: 4
+  - num: '04'
     name: 'апрель'
-  - no: 5
+  - num: '05'
     name: 'май'
-  - no: 6
+  - num: '06'
     name: 'июнь'
-  - no: 7
+  - num: '07'
     name: 'июль'
-  - no: 8
+  - num: '08'
     name: 'август'
-  - no: 9
+  - num: '09'
     name: 'сентябрь'
-  - no: 10
+  - num: '10'
     name: 'октябрь'
-  - no: 11
+  - num: '11'
     name: 'ноябрь'
-  - no: 12
+  - num: '12'
     name: 'декабрь'
