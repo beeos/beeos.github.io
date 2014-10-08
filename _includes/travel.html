@@ -17,7 +17,7 @@
    {% else %}
    {% assign dates = null %}
    {% endif %}
-   <li>{{ place.city }}{% if dates != null %}{% for date in dates) %}{% assign mno = date | date:'%m' %}{% assign month = months | where:'num', mno %}<span class="calm">, {{ month | map:'name' }} {{ date | date: '<b>%Y</b>' | lowercase }}</span>{% endfor %}{% endif %}{% if place.description != null %}<br/><small>{{ place.description }}</small>{% endif %}</li>
+   <li>{{ place.city }}{% if dates != null %}{% for date in dates reversed) %}{% assign mno = date | date:'%m' %}{% assign month = months | where:'num', mno %}<span class="calm">, {{ month | map:'name' }} {{ date | date: '<b>%Y</b>' | lowercase }}</span>{% endfor %}{% endif %}{% if place.description != null %}<br/><small>{{ place.description }}</small>{% endif %}</li>
    {% endfor %}
    </ul>
 {% endfor %}
