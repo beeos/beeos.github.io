@@ -5,7 +5,7 @@
 {% assign text = cite.text | markdownify %}
 {% assign text = text | remove: '<p>' %}
 {% assign text = text | remove: '</p>' %}
-<p>{{ text }}{% if cite.author %} /&nbsp;<em><small>{{ cite.author }}</small></em>{% endif %}</p>
+<p>{{ text }}{% if cite.author %} /&nbsp;<nobr><em><small>{{ cite.author }}</small></em></nobr>{% endif %}</p>
 * * *
 {% endunless %}
 {% endfor %}
