@@ -1,0 +1,9 @@
+{% assign cites = site.data.cites %}
+
+{% for cite in cites %}
+{% assign text = cite.text | markdownify %}
+{% assign text = text | remove: '<p>' %}
+{% assign text = text | remove: '</p>' %}
+<p>{{ text }}{% if cite.author %} / <em><small>{{ cite.author }}</small></em>{% endif %}</p>
+* * *
+{% endfor %}
