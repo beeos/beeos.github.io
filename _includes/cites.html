@@ -6,6 +6,6 @@
 {% assign text = text | remove: '<p>' %}
 {% assign text = text | remove: '</p>' %}
 <p>{{ text }}{% if cite.author %} /&nbsp;<nobr><em><small>{{ cite.author }}</small></em></nobr>{% endif %}</p>
-* * *
+{% unless forloop.last %}* * *{% endunless %}
 {% endunless %}
 {% endfor %}
