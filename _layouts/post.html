@@ -5,7 +5,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: '%d.%m.%Y' }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.originally-posted-at %} • Опубликовано <a title="Оригинал публикации: {{ page.original }}" href="{{page.original}}">{{ page.originally-posted-at }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{{ page.date | date: '%d.%m.%Y' }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.originally-posted-at %} • Опубликовано <a title="Оригинал публикации: {{ page.original }}" href="{{page.original}}">{{ page.originally-posted-at }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • Читается за ~{{ content | size | divided_by:1200 }} мин</p>
   </header>
   <article class="post-content">
     {{ content | replace:' —','&nbsp;—' }}
