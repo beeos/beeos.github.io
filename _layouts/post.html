@@ -11,7 +11,7 @@ layout: default
     {{ content | replace:' —','&nbsp;—' }}
   </article>
 
-  <p class="calm right"><i class="fa fa-eye"></i> Слов — <span class="number">{{ content | number_of_words }}</span>, знаков — <span class="number">{{ content | size }}</span></p>
+  <p class="calm right"><i class="fa fa-newspaper-o"></i> Слов — <span class="number">{{ content | number_of_words }}</span>, знаков — <span class="number">{{ content | size }}</span>, <i class="fa fa-clock-o"></i> ~{{ content | size | divided_by:1200 }} мин</p>
 
     <!-- div id="disqus_thread"></div>
     <script type="text/javascript">
