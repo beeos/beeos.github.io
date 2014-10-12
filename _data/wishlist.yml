@@ -95,3 +95,16 @@
   link: http://www.decathlon.ru/chemodan-rjukzak-60-l-id_8081523.html
   picture: http://www.decathlon.ru/media/808/8081523/big_b77f617e9655421da8c9dd339a1e8939.jpg
   rating: 15
+
+
+- name: Мешок для спортивной обуви
+  decathlon: >
+    В Декатлоне продают под видом «сумки для детского фитнеса». Как показала практика, именно такой формат: просто мешок на шнурках, 
+    без молний и прочей фурнитуры — самый удобный.
+  active: yes
+  price: 249
+  link: http://www.decathlon.ru/sumka-gymy-det-id_8239308.html
+  picture: http://www.decathlon.ru/media/823/8239308/big_bcaeebe30c4543a6841f590d69c864e5.jpg
+  rating: 100
+
+  
