@@ -96,6 +96,14 @@
   picture: http://www.decathlon.ru/media/808/8081523/big_b77f617e9655421da8c9dd339a1e8939.jpg
   rating: 15
 
+- name: Сумка на колесах Deuter Helion 60
+  decathlon: > 
+    Гораздо более крутая (и дорогая) альтернатива предыдущей хотелке.
+  picture: http://www.rykzakov.ru/files/products/2502_0.600x600w.jpg?7a4a57c51ce5652fcbc72054682c6d6d
+  price: 11500
+  link: http://www.rykzakov.ru/products/deuter_sumka_helion_60
+  active: yes
+  rating: 16
 
 - name: Мешок для спортивной обуви
   description: >
