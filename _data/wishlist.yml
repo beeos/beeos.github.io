@@ -84,3 +84,14 @@
   picture: http://static12.insales.ru/images/products/1/1542/38880774/1366116196794ltorangebig.jpg
   link: http://dreambikes.ru/product_by_id/32492584
   rating: 25
+
+- name: Чемодан-рюкзак Newfeel 60 л
+  description: >
+    Отличный вариант для путешествий вдвоем. Для города и самолета — это удобный чемодан на колесах, 
+    а для «автономок» — обычный рюкзак с лямками. Конечно, это не замена походному рюкзаку, однако для 
+    дальних переездов с большим количеством локальных перемещений — самое оно.
+  active: yes
+  price: 3499
+  link: http://www.decathlon.ru/chemodan-rjukzak-60-l-id_8081523.html
+  picture: http://www.decathlon.ru/media/808/8081523/big_b77f617e9655421da8c9dd339a1e8939.jpg
+  rating: 15
