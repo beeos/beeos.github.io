@@ -100,8 +100,8 @@
   description: > 
     Гораздо более крутая (и дорогая) альтернатива предыдущей хотелке.
   picture: http://www.rykzakov.ru/files/products/2502_0.600x600w.jpg?7a4a57c51ce5652fcbc72054682c6d6d
-  price: 11500
-  link: http://www.rykzakov.ru/products/deuter_sumka_helion_60
+  price: 9790
+  link: http://www.tvzavr.ru/export/yandex-kinopoisk2.xml
   active: yes
   rating: 16
 
@@ -109,7 +109,7 @@
   description: >
     В Декатлоне продают под видом «сумки для детского фитнеса». Как показала практика, именно такой формат — просто мешок на шнурках, 
     без молний и прочей фурнитуры — самый удобный.
-  active: yes
+  active: no
   price: 249
   link: http://www.decathlon.ru/sumka-gymy-det-id_8239308.html
   picture: http://www.decathlon.ru/media/823/8239308/big_bcaeebe30c4543a6841f590d69c864e5.jpg
