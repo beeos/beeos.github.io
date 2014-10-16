@@ -89,8 +89,8 @@
 - {city: Чезена, country: Италия}
 
 ## Иордания
-- {city: Маан, country: Иордания}
-- {city: Петра, country: Иордания}
+- {city: Маан, country: Иордания, date: [2010-01-05]}
+- {city: Петра, country: Иордания, date: [2010-01-05]}
 
 ## Куба
 - {city: Варадеро, country: Куба}
@@ -110,7 +110,7 @@
 - {city: Итака (NY), country: США}
 - {city: Женева (NY), country: США}
 - {city: Ниагара Фолс, country: США}
-- {city: Нью-Йорк, country: США}
+- {city: Нью-Йорк, country: США, date: [1997-10-15]}
 - {city: Рочестер (NY), country: США}
 
 ## Турция
