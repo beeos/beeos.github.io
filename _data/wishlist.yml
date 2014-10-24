@@ -22,13 +22,13 @@
   link: http://biolitestove.com/products/campstove-bundle/
   picture: http://biolitestove.com/Media/BioLite/Campstove%20Bundle/BioLite-CampStove-System_02.jpg
   price: 5200
-  active: yes
+  active: no 
   rating: 2
 
 - name: Пульсометр
   description: >
     Абсолютно любой пульсометр
-  active: yes
+  active: no 
   price: 2000
   rating: 20
 
@@ -71,7 +71,7 @@
 - name: Sublime Text 3 for Mac
   description: > 
     Спасибо разработчикам: этот редактор работает в бесконечном триальном режиме. Но он настолько хорош, что пора узаконить лицензию.
-  active: yes
+  active: no 
   link: https://www.sublimetext.com/buy
   price: 2800
   rating: 3
@@ -114,5 +114,3 @@
   link: http://www.decathlon.ru/sumka-gymy-det-id_8239308.html
   picture: http://www.decathlon.ru/media/823/8239308/big_bcaeebe30c4543a6841f590d69c864e5.jpg
   rating: 100
-
-  
