@@ -22,8 +22,17 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 25%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$almost-white: 	   #eeeeee;
+
 $on-palm:          600px;
 $on-laptop:        800px;
+
+$date-color: 		$brand-color;
+$day-color: 		$brand-color;
+$week-color: 		#27ae60;
+$sprint-color:		#f1c40f;
+$quarter-color: 	#e67e22;
+$year-color: 		#c0392b;
 
 
 

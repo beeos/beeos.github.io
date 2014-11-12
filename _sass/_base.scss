@@ -222,7 +222,10 @@ pre {
 
 .calm {
     color: $grey-color-light;
-}
+    *.highlight {
+        background-color: black;
+    }
+}   
 
 .right {
     text-align: right; 
@@ -309,4 +312,100 @@ blockquote p em {
 
 .author {
     text-decoration: italic;
+}
+
+.calendar {
+    width: 210px;
+    line-height: 0.8em;
+    * {
+        font-size: x-small;
+    }
+    hr {
+        margin: 1em 0 0.5em 0;
+        border-color: $grey-color-light;
+    }
+
+    .currentweek {
+        background-color: lighten($week-color, 50%) !important;
+        line-heght: 2em;
+        padding: 0.5em;
+        display: block;
+        margin-bottom: -0.6em;
+    }
+    .quarterrow {
+        padding: 0 0.5em 0.2em 0.5em;
+        display: block;
+    }
+}
+
+.highlight {
+    background-color: $brand-color;
+    font-size: x-small;
+    border-radius: 2px;
+    padding: 0.3em 0.4em 0.3em 0.4em;
+    &.compact {
+        margin-top: 0em;
+        padding: 0em 0.2em 0.1em 0.2em;
+        color: black;
+    }
+    
+    &.week {
+        background-color: $week-color !important;
+        color: $almost-white;
+    }
+    
+    &.date {
+        border: 1px solid $brand-color;
+        color: $date-color;
+        background: none;
+    }
+
+    &.day {
+        background-color: $date-color !important;
+        color: $almost-white;
+    }
+    
+    &.sprint {
+        background-color: $sprint-color !important;
+        color: $almost-white;
+    }
+    
+    &.quarter {
+        background-color: $quarter-color !important;
+        color: $almost-white;
+    }
+
+    &.year {
+        background-color: $year-color !important;
+        color: $almost-white;
+    }
+}
+
+.day {
+    color: $day-color;
+}
+
+.week {
+    color: $week-color;
+}
+
+.sprint {
+    color: $sprint-color;
+}
+
+.quarter {
+    color: $quarter-color;
+}
+
+.year {
+    color: $year-color;
+}
+
+.past {
+    text-decoration: line-through;
+    color: #666 !important;
+}
+
+.future {
+    color: $grey-color-light !important;
 }
