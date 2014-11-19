@@ -1,11 +1,11 @@
 # Site settings
-title: Секреты управления жизнью
+title: Дворец памяти
 subtitle: Знания. Вещи. Технологии
 author: Дмитрий Калинников
 email: dmitry@kalinnikov.ru
 description: > # this means to ignore newlines until "baseurl:"
   Бортовой журнал, дворец памяти, управление знаниями, 
-  избавление от ненужных вещей, рассуждения на вольные темы
+  избавление от ненужных вещей, секреты управления жизнью
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.kalinnikov.ru" # the base hostname & protocol for your site
 twitter_username: beeos
