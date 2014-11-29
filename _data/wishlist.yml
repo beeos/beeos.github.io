@@ -105,8 +105,14 @@
   link: http://www.tvzavr.ru/export/yandex-kinopoisk2.xml
   active: no
   link: http://www.lamoda.ru/p/de784budeh52/bags-deuter-sumka-dorozhnaya/
-  active: no
   rating: 16
+
+- name: Электровелосипед Wellness Air 350
+  picture: http://static12.insales.ru/images/products/1/5971/30521171/Air-izom.jpg
+  price: 34900
+  link: http://www.electrovelosiped-kupit.ru/product_by_id/25968696
+  active: yes
+  rating: 1
 
 - name: Мешок для спортивной обуви
   description: >
