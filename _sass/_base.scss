@@ -315,7 +315,7 @@ blockquote p em {
 }
 
 .calendar {
-    width: 210px;
+    width: 180px;
     line-height: 0.8em;
     * {
         font-size: x-small;
@@ -326,11 +326,23 @@ blockquote p em {
     }
 
     .currentweek {
-        background-color: lighten($week-color, 50%) !important;
+        background-color: $week-color !important;
         line-heght: 2em;
         padding: 0.5em;
         display: block;
+        color: white !important;
         margin-bottom: -0.6em;
+        border-radius: 2px;
+        span {
+            color: white;
+            border: none;
+            &.future {
+                color: $week-hl-color !important;
+            }
+            &.past {
+                color: $week-dim-color !important;
+            }
+        }
     }
     .quarterrow {
         padding: 0 0.5em 0.2em 0.5em;
@@ -342,7 +354,7 @@ blockquote p em {
     background-color: $brand-color;
     font-size: x-small;
     border-radius: 2px;
-    padding: 0.3em 0.4em 0.3em 0.4em;
+    padding: 0.3em 0.4em 0.1em 0.4em;
     &.compact {
         margin-top: 0em;
         padding: 0em 0.2em 0.1em 0.2em;
@@ -403,9 +415,79 @@ blockquote p em {
 
 .past {
     text-decoration: line-through;
-    color: #666 !important;
+    color: #333 !important;
 }
 
 .future {
-    color: $grey-color-light !important;
+    color: $almost-white !important;
+}
+
+th {
+    font-weight: 200;
+    display: none;
+}
+
+table.tinytable {
+    width:10px;
+    tr {
+
+        td {
+            line-height: 0.1em;
+            color: $day-color;
+            font-size: 4px;
+        }
+    }
+}
+
+.toc {
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    position: fixed;
+    float: right;
+    background: #222;
+    box-shadow: inset 5px 0 -5px 0px #000;
+    width: 190px;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    color: #fff;
+}
+
+.toc .left {
+    left: 0px;
+}
+
+.toc ul {
+    margin: 1em 0 0 0;
+    padding: 0;
+    list-style: none;
+    li:not(:last-child) {
+        border-bottom: 1px solid #333;
+    }
+}
+
+.toc li {
+    padding: 0.2em 0.4em;
+    font-size: x-small;
+    color: #999;    
+}
+
+.toc a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding-left: 0.5em;
+}
+
+.toc .toc-h2 {
+    padding-left: 1em;
+}
+
+.toc .toc-h3 {
+    padding-left: 2em;
+}
+
+.toc .toc-active {
+    background: $second-color;
+    box-shadow: inset -2px 0px 4px -2px #000;
 }

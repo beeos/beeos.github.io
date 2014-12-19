@@ -22,7 +22,7 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 25%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$almost-white: 	   #eeeeee;
+$almost-white: 	   #eee;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -34,6 +34,8 @@ $sprint-color:		#f1c40f;
 $quarter-color: 	#e67e22;
 $year-color: 		#c0392b;
 
+$week-hl-color: 	darken($week-color, 20%);
+$week-dim-color: 	lighten($week-color, 10%);
 
 
 // Using media queries with like this:
