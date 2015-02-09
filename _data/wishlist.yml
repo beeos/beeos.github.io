@@ -39,6 +39,7 @@
   active: yes
   price: 280
   rating: 5
+  active: no
 
 
 - name: Подарочные карты iTunes 
@@ -93,6 +94,7 @@
     дальних переездов с большим количеством локальных перемещений — самое оно.
   active: yes
   price: 3499
+  active: no
   link: http://www.decathlon.ru/chemodan-rjukzak-60-l-id_8081523.html
   picture: http://www.decathlon.ru/media/808/8081523/big_b77f617e9655421da8c9dd339a1e8939.jpg
   rating: 15
