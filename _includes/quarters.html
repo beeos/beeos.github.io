@@ -1,37 +1,6 @@
-{% assign currentdate = include.date %}
-{% assign currentyear = 33 %}
-<div class="calendar">
-<script type="text/javascript">
-	var d = new Date('{{ currentdate }}');
-	var bd = new Date('{{ site.birthday }}');
-	var currentyear = d.getYear() - bd.getYear() + 1;
-	alert(currentyear);
-</script>
-<span class="brand">
-<span class="highlight year">Y{{ currentyear }}</span>&nbsp;<span class="highlight quarter">Q1</span>&nbsp;</i><span class="highlight sprint">S1</span>&nbsp;</i><span class="highlight week">03</span>&nbsp;<span class="highlight day">18</span> <span class="highlight date">{{ currentdate | date: "%d.%m" }}</span> {{ currentdate | date:"%Y"}}
-</span>
-<br/>
-<!-- span class="brand">
-<i class="fa fa-angle-double-right"></i>
-<i class="fa fa-pagelines"></i>
-<i class="fa fa-pagelines"></i>
-</span -->
-<br/>
-<span class="week currentweek">
-03
-<i class="fa fa-angle-right"></i><span class="delimiter">&nbsp;</span>
-<span class="past">вс</span><span class="delimiter">&nbsp;</span>
-<span class="past">пн</span><span class="delimiter">&nbsp;</span>
-<span class="past">вт</span><span class="delimiter">&nbsp;</span>
-<span class="highlight compact date">ср</span><span class="delimiter">&nbsp;</span>
-<span class="future">чт</span><span class="delimiter">&nbsp;</span>
-<span class="future">пт</span><span class="delimiter">&nbsp;</span>
-<span class="future">сб</span><span class="delimiter">&nbsp;</span>
-</span>
-<br/>
-<span class="quarter quarterrow">
-<span class="">Q1</span>
-<i class="fa fa-angle-right"></i>
+<span class="future quarterrow">
+<span class="quarter">Q1
+<i class="fa fa-angle-right"></i></span>
 <span class="sprint">
 <i class="fa fa-circle"></i>
 <i class="fa fa-circle"></i>
@@ -98,4 +67,3 @@ Q4
 <i class="fa fa-circle-o"></i><span class="delimiter">&nbsp;</span>
 <i class="fa fa-times-circle-o"></i>
 </span>
-</div>

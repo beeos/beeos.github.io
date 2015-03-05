@@ -1,0 +1,34 @@
+{% assign open = 'circle-o' %}
+{% assign close = 'circle' %}
+{% assign wd = site.data.locals.weekdays %}
+{% if include.current %}
+{% assign current = include.current %}
+{% else %}
+{% assign current = 0 %}
+{% endif %}
+<table class="tinytable" cellpadding="0" cellspacing="0">
+	<tr>
+	{% for w in wd %}
+	{% unless forloop.index > 3 %}
+	{% if current <= forloop.index0 %}
+	{% assign cd = open %}
+	{% else %}
+	{% assign cd = close %}
+	{% endif %}
+		<td><i class="fa fa-{{ cd }}"></i></td>
+	{% endunless %}
+	{% endfor %}
+	</tr>
+	<tr>
+	{% for w in wd %}
+	{% unless forloop.index <= 3 %}
+	{% if current <= forloop.index0 %}
+	{% assign cd = open %}
+	{% else %}
+	{% assign cd = close %}
+	{% endif %}
+		<td><i class="fa fa-{{ cd }}"></i></td>
+	{% endunless %}
+	{% endfor %}
+	</tr>
+</table>
