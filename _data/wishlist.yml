@@ -39,6 +39,7 @@
   active: yes
   price: 280
   rating: 5
+  active: no
 
 
 - name: Подарочные карты iTunes 
@@ -93,6 +94,7 @@
     дальних переездов с большим количеством локальных перемещений — самое оно.
   active: yes
   price: 3499
+  active: no
   link: http://www.decathlon.ru/chemodan-rjukzak-60-l-id_8081523.html
   picture: http://www.decathlon.ru/media/808/8081523/big_b77f617e9655421da8c9dd339a1e8939.jpg
   rating: 15
@@ -105,8 +107,23 @@
   link: http://www.tvzavr.ru/export/yandex-kinopoisk2.xml
   active: no
   link: http://www.lamoda.ru/p/de784budeh52/bags-deuter-sumka-dorozhnaya/
-  active: no
   rating: 16
+
+- name: Электровелосипед Wellness Air 350
+  picture: http://static12.insales.ru/images/products/1/5971/30521171/Air-izom.jpg
+  price: 34900
+  link: http://www.electrovelosiped-kupit.ru/product_by_id/25968696
+  active: yes
+  rating: 1
+  
+- name: Телефон Nokia 1202
+  description: > 
+    Нужен простой телефон под обычную сим-карту в качестве резервного и походного средства связи.
+  picture: http://trend-mobi.ru/image/cache/data/nokia/1202-500x500.jpg
+  price: 1790
+  link: http://market.yandex.ru/model.xml?modelid=3570864&hid=91491
+  active: yes
+  rating: 2
 
 - name: Мешок для спортивной обуви
   description: >

@@ -261,6 +261,10 @@ dd {
     margin-bottom: 0.3em;
 }
 
+article ol.li, ul.li {
+    margin-bottom: 0.5em;
+}
+
 span.delimiter {
     color: $background-color;
     font-size: x-small;
@@ -322,6 +326,7 @@ blockquote p em {
 .author {
     text-decoration: italic;
 }
+<<<<<<< HEAD
 
 .calendar {
     width: 180px;
