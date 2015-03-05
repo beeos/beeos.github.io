@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Webplate test</title>
+	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	<script id="webplate-stack" src="{{ "/bower_components/webplate/stack.js" | prepend: site.baseurl }}"></script>
+</head>
+<body data-project-css="example.css" data-project-js="example.js" data-icon-font="fontawesome">
+	<nav class="navigation">
+	    <ul>
+	        <li><a href="page.html">Link 1</a></li>
+	        <li><a href="page.html">Link 2</a></li>
+	        <li><a href="page.html">Link 3</a></li>
+	        <li><a href="page.html">Link 4</a></li>
+	        <li><a href="page.html">Link 5</a></li>
+	    </ul>
+	</nav>
+	<div class="class-example row">
+	    <div class="span-12 span-large-2">Left</div>
+	    <div class="span-6 span-large-8">{{ content }}</div>
+	    <div class="span-6 span-large-2">
+			<a href="#" class="modal-trigger" data-modal-open="modal-example">Open Modal</a>
+			 
+			// The modal
+			<div class="modalplate" data-modal-id="modal-example">
+			    <div class="modalplate-title-bar">
+			        <a href="#" class="close">Close</a>
+			        <h5>The Modal Heading</h5>
+			    </div>
+			    <div class="modalplate-content">
+			        Here goes your content like text and stuff.<br/><br/>
+			        <a href="#" class="button green close">Submit</a>
+			    </div>
+			</div>
+	    </div>
+	</div>
+<a href="#" class="button gradient-green">Green</a>
+<a href="#" class="button gradient-orange">Orange</a>
+<a href="#" class="button gradient-pink">Pink</a>
+	<div class="flickerplate">
+	    <ul>
+	        <li>
+	            <div class="flick-title">Title 1</div>
+	            <div class="flick-sub-text">Text line 1</div>
+	        </li>
+	        <li>
+	            <div class="flick-title">Title 2</div>
+	            <div class="flick-sub-text">Text line 2</div>
+	        </li>
+	        <li>
+	            <div class="flick-title">Title 3</div>
+	            <div class="flick-sub-text">Text line 3</div>
+	        </li>
+	    </ul>
+	</div>
+</body>
+</html>

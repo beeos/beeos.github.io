@@ -294,8 +294,17 @@ span.delimiter {
     margin-right: 0.1em;
 }
 
+#site-icon {
+    padding: 0 0 0 1em;
+}
+
 #site-icon:hover {
-    color: lighten($brand-color, 35%);
+    i {
+        color: lighten($brand-color, 35%);
+    }
+    a {
+        text-decoration: none;
+    }
 };
 
 .contact-list li {

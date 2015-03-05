@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="post">
+{% assign life = site.data.projects.life %}
+  <article class="post-content">
+    {{ content }}
+  </article>
+	<div class="toc">
+	    {% include calendar.html date="2014-11-26"%}
+	<ul>
+	{% for rule in life.rules.content %}<li>{{ rule }}</li>
+	{% endfor %}
+	</ul>
+</div>
+</div>
