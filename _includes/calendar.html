@@ -1,0 +1,75 @@
+{% assign currentdate = include.date %}
+{% assign yearstart = site.firstday %}
+{% assign totaldays = currentdate | minus:yearstart %}
+{% assign weekdays = site.data.locals.weekdays %}
+{% assign weekday = 6 %}
+{% assign sprintdays = 7 | plus: weekday %}
+<div class="calendar">
+<span class="brand">
+<span class="highlight year" id="currentyear"></span>&nbsp;<span class="highlight quarter" id="currentquarter">Q1</span>&nbsp;</i><span class="highlight sprint" id="currentsprint">S2</span>&nbsp;</i><span class="highlight week">05</span>&nbsp;<!--  --><span class="highlight date" id="currentdate">{{ currentdate | date: "%d.%m.%Y" }}</span>&nbsp;<span id="currentday" class="highlight day"></span>
+</span>
+<br/>
+<!-- span class="brand">
+<i class="fa fa-angle-double-right"></i>
+<i class="fa fa-pagelines"></i>
+<i class="fa fa-pagelines"></i>
+</span -->
+<br/>
+{{ currentweekday }}
+<span class="week currentweek dark">
+<span id="currentweek">05</span>
+<i class="fa fa-angle-right"></i><span class="delimiter">&nbsp;</span>
+{% for wd in weekdays %}
+{% if forloop.index < weekday %}
+{% assign wcl = 'past' %}
+{% elsif forloop.index > weekday %}
+{% assign wcl = 'future' %}
+{% else %}
+{% assign wcl = 'highlight compact date' %}
+{% endif %}
+<span class="{{wcl}}">{{wd}}</span><span class="delimiter">&nbsp;</span>
+{% endfor %}
+</span>
+<br/>
+{% include days.html daycount=weekday %}
+<script type="text/javascript">
+$.getJSON("/js/test.json", function(json) {
+    console.log(json); // this will show the info it in firebug console
+});
+
+function addLeadingZeros (n, length) {
+    var str = (n > 0 ? n : -n) + "";
+    var zeros = "";
+    for (var i = length - str.length; i > 0; i--)
+        zeros += "0";
+    zeros += str;
+    return n >= 0 ? zeros : "-" + zeros;
+}
+
+	var d = new Date();
+	var bd = new Date('{{ site.birthday }}');
+	var sd = new Date('{{ site.firstday }}');
+	var msid = 1000*60*60*24; // Milliseconds in day
+	var extra = (d < bd) ? 0 : 1;
+	var currentyear = d.getFullYear() - bd.getFullYear() + extra;
+	var currentday = Math.ceil((d - sd) / msid);
+	console.log(d.getFullYear());
+	console.log(bd.getFullYear());
+	console.log((d - sd) / msid);
+	console.log(sd);
+	console.log(currentday);
+	var currentweek = Math.ceil(currentday / 7);
+	var currentsprint = Math.ceil(currentday / 21);
+	var nosprint = (currentsprint % 13) == 0;
+	var currentquarter = Math.ceil(currentday / (7*13));
+	console.log(currentweek);
+	console.log(currentsprint);
+	console.log(currentquarter);
+	document.getElementById("currentdate").innerHTML = addLeadingZeros(d.getDate(),2) + '.' + (d.getMonth()+1) + '.' + d.getFullYear();
+	document.getElementById("currentyear").innerHTML = currentyear;
+	document.getElementById("currentquarter").innerHTML = 'Q'+currentquarter;
+	document.getElementById("currentsprint").innerHTML = 'S'+currentsprint;
+	document.getElementById("currentweek").innerHTML = addLeadingZeros(currentweek, 2);
+	document.getElementById("currentday").innerHTML = addLeadingZeros(currentday, 3);	
+</script>
+</div>
