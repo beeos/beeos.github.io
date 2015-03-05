@@ -1,0 +1,10 @@
+{% assign life = site.data.projects.life %}
+{% for scope in life.focus %}
+{% assign s = scope.last %}
+<h3>{{ s.display }}</h3>
+<ul>
+{% for item in s.list %}
+<li>{% include listparser.html term=item %}</li>
+{% endfor %}
+</ul>
+{% endfor %}

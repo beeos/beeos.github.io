@@ -1,0 +1,14 @@
+{% assign p = site.data.projects %}
+{% assign counter = 0 %}
+
+## Проекты
+{% for project in p %}
+{% assign title = project.first %}
+{% assign body = project.last %}
+{% if body.info.active %}
+{{ project }}
+{% assign counter = counter | plus:1 %}
+### {{ counter }}: {{ title }}
+{{ body.synopsis }}
+{% endif %}
+{% endfor %}
