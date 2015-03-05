@@ -1,0 +1,14 @@
+---
+layout: page-noheader
+title: Планы
+permalink: /lifeplan/
+---
+{% assign life = site.data.projects.life %}
+{% include tasks.html %}
+
+## Миссия
+{{ life.general.mission }}
+
+## Видение
+{% for vision in life.general.vision %}  - {{ vision }}
+{% endfor %}
