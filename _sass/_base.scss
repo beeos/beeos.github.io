@@ -106,6 +106,16 @@ a {
     }
 }
 
+.logo {
+    font-family: Avenir;
+    margin-left: 0.3em;
+    opacity: 0.5;
+    span.capitel {
+        opacity: 1;
+        color: white;
+    }
+}
+
 .site-header {
     background-color: $brand-color;
 }
@@ -114,11 +124,14 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: $brand-color-dark;
+    background-color: $brand-color-ultralight;
+    border-left: 6px solid $brand-color-light;
+    padding-top: $spacing-unit / 3;
+    padding-bottom: $spacing-unit / 3;
     padding-left: $spacing-unit / 2;
+    padding-right: $spacing-unit / 2;
     font-size: 18px;
-    font-style: italic;
 
     > :last-child {
         margin-bottom: 0;
@@ -145,13 +158,12 @@ blockquote.left {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+   /* border: 1px solid $grey-color-light; */
     border-radius: 3px;
-    background-color: #eef;
-}
-
-code {
-    padding: 1px 5px;
+    font-weight: 100;
+    color: #444;
+    background-color: $yellow-marker; 
+    /* font-family: Courier New; */
 }
 
 pre {
@@ -221,7 +233,7 @@ pre {
 }
 
 .calm {
-    color: $grey-color-light;
+    opacity: 0.5;
     *.highlight {
         background-color: black;
     }
@@ -450,6 +462,52 @@ table.tinytable {
             font-size: 4px;
         }
     }
+}
+
+
+.sidenote {
+    display: block;
+    float: right;
+    border-top: 4px solid #ccc;
+    width: 200px;
+    color: #666;
+    margin: 0.5em;
+    padding: 0.3em;
+    padding-top: -10px;
+    font-size: smaller;
+    font-family: Georgia;
+}
+
+.noborder {
+    border: none;
+}
+
+@media screen and (min-width: $on-widescreen), projection and (min-width: $on-widescreen), tv and (min-width: $on-widescreen) {
+#container{margin-left:10px}
+    .sidenote {
+        float:none;
+        position: absolute;
+        right: 2.3em;
+        width: 200px;
+        margin: 0;
+        margin-right: 8px;
+    }
+}
+
+@media screen and (max-width: $on-palm), projection and (max-width: $on-palm), tv and (max-width: $on-palm) {
+#container{margin-left:10px}
+    .sidenote {
+        float:none;
+        position: relative;
+        padding-bottom: 0.7em;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        margin: 0 0 0.8em 0;
+        &.noborder {
+            padding-top: 0.5em;
+            border-bottom: none;
+        }
+    }    
 }
 
 .toc {

@@ -16,7 +16,11 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2980b9;
+$brand-color-dark: darken($brand-color, 15%);
 $second-color:     lighten($brand-color, 15%);
+$brand-color-light: lighten($brand-color, 30%);
+$brand-color-ultralight: lighten($brand-color, 50%);
+$yellow-marker: #fefadc;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 25%);
@@ -26,6 +30,7 @@ $almost-white: 	   #eee;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+$on-widescreen:    1225px;
 
 $date-color: 		$brand-color;
 $day-color: 		$brand-color;

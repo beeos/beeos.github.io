@@ -2,10 +2,7 @@
 
 {% for cite in cites %}
 {% unless cite.hide %}
-{% assign text = cite.text | markdownify %}
-{% assign text = text | remove: '<p>' %}
-{% assign text = text | remove: '</p>' %}
-<p>{{ text }}{% if cite.author %} /&nbsp;<nobr><em><small>{{ cite.author }}</small></em></nobr>{% endif %}</p>
+{% include cite.html cite=cite %}
 {% unless forloop.last %}* * *{% endunless %}
 {% endunless %}
 {% endfor %}
