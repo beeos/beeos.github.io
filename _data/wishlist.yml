@@ -124,7 +124,12 @@
   link: "http://market.yandex.ru/model.xml?modelid=3570864&hid=91491"
   active: yes
   rating: 2
-
+- name: Рюкзак Fjallraven Foldsack
+  picture: http://www.fjallraven.com/media/catalog/product/cache/all/base/522x/17f82f742ffe127f42dca9de82fb58b1/F/2/F24210-220_0.jpg
+  link: "https://brandshop.ru/backpack-fjallraven-foldsack-no-1-autumn-leaf/"
+  price: 6990
+  description: > 
+    Идеальный рюкзак для города и коротких путешествий: прочный, легкий, компактный и вместительный. Хочу именно цвета хаки: черный, или, к примеру, желтый найти — не проблема.
 - name: Мешок для спортивной обуви
   description: >
     В Декатлоне продают под видом «сумки для детского фитнеса». Как показала практика, именно такой формат — просто мешок на шнурках, 
