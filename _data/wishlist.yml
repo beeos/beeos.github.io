@@ -44,7 +44,7 @@
 
 - name: Подарочные карты iTunes 
   description: >
-    Нужны всегда, на любую сумму
+    Нужны всегда, на любую сумму.
   link: https://money.yandex.ru/games/shop.xml?scid=5503
   active: yes
   rating: 1000
@@ -52,13 +52,13 @@
 
 - name: Спортивный шейкер
   description: >
-    Самый простой стакан для спортивного питания
+    Самый простой стакан для спортивного питания.
   active: no
   rating: 30
 
 - name: Облачный хостинг
   description: >
-    [Digital Ocean](http://digitalocean.com) или [Amazon S3](http://aws.amazon.com/s3/) на три месяца и больше
+    [Digital Ocean](http://digitalocean.com) или [Amazon S3](http://aws.amazon.com/s3/) на три месяца и больше.
   active: yes
   link: '#'
   rating: 100
