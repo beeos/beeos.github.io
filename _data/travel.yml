@@ -26,6 +26,7 @@
 - {city: Калуга, country: Россия, date: [ 2014-07-18 ]}
 - {city: Кандалакша, country: Россия, date: [ 2012-08-07 ]}
 - {city: Козельск, country: Россия, date: [ 2014-07-19 ]}
+- {city: Коломна, country: Россия, date: [ 2015-08-02 ]}
 - {city: Кострома, country: Россия, date: [ 2014-03-08 ]}
 - {city: Красная Поляна, country: Россия}
 - {city: Наро-Фоминск, country: Россия}
@@ -120,9 +121,12 @@
 - {city: Даламан, country: Турция}
 - {city: Кемер, country: Турция}
 - {city: Куршунлу, country: Турция}
+- {city: Кушадасы, country: Турция, date: [2015-08-20]}
 - {city: Мармарис, country: Турция}
 - {city: Памуккале, country: Турция}
+- {city: Сельчук, country: Турция, date: [2015-08-19]}
 - {city: Стамбул, country: Турция}
+- {city: Эфес, country: Турция, date: [2015-08-19]}
 
 ## Таиланд
 - {city: Паттайя, country: Таиланд}
