@@ -10,6 +10,13 @@
   active: no
   rating: 40
 
+- name: Шахматный набор
+  link: http://www.kupitshahmaty.ru/collection/shahmatnye-nabory/product/shahmaty-turnirnye-35
+  picture: http://static12.insales.ru/images/products/1/2746/40151738/a9743b2cc9ace8bc10a50130f554a347.jpg
+  price: 2500
+  active: yes
+  rating: 10
+
 - name: Biolite Campstove Bundle
   description: >
     Портативная горелка [Biolite Campstove](http://biolitestove.com)&nbsp;— совершенно удивительная штука, в которой 
