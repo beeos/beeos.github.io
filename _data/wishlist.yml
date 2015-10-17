@@ -1,17 +1,24 @@
 ---
-- name: Бинокль Olympus Zoom PC I 
+- name: Бинокль Olympus Zoom PC I
   description: >
-    По странной прихоти судьбы, любовь к природе сочетается во мне с чрезвычайно плохим зрением. 
-    Поэтому хочу биноколь с 18-кратным увеличением. Можно больше. На самом деле, чем больше&nbsp;— тем лучше. 
-    Ну и не очень тяжелый, да. А то и так обычно рюкзаки неподъемные. 
+    По странной прихоти судьбы, любовь к природе сочетается во мне с чрезвычайно плохим зрением.
+    Поэтому хочу биноколь с 18-кратным увеличением. Можно больше. На самом деле, чем больше&nbsp;— тем лучше.
+    Ну и не очень тяжелый, да. А то и так обычно рюкзаки неподъемные.
   link: http://www.onlinetrade.ru/catalogue/binokli-c135/olympus/binokl_olympus_pci_zoom_10_30x25_s_chehlom-4549.html
   picture: http://mdata.yandex.net/i?path=b0330144218_img_id8105913022092082155.jpg
   price: 5990
   active: no
   rating: 40
 
+- name: Язык шаблонов
+  link: http://www.artlebedev.ru/everything/izdal/yazyk-shablonov/
+  picture: http://img.artlebedev.ru/everything/izdal/yazyk-shablonov/yazyk-shablonov-cover.jpg
+  price: 4500
+  active: yes
+  rating: 0
+
 - name: Шахматный набор
-  description: > 
+  description: >
     Классический шахматный набор среднего размера с фигурами из клена; использовать буду в основном для этюдов.
   link: http://www.kupitshahmaty.ru/collection/shahmatnye-nabory/product/shahmaty-turnirnye-35
   picture: http://static12.insales.ru/images/products/1/2746/40151738/a9743b2cc9ace8bc10a50130f554a347.jpg
@@ -21,29 +28,29 @@
 
 - name: Biolite Campstove Bundle
   description: >
-    Портативная горелка [Biolite Campstove](http://biolitestove.com)&nbsp;— совершенно удивительная штука, в которой 
+    Портативная горелка [Biolite Campstove](http://biolitestove.com)&nbsp;— совершенно удивительная штука, в которой
     высокие технологии сочетаются с экономичностью и экологичностью. Во-первых, горелка не требует специального
     топлива (даже дров) и может топиться любыми щепочками или другим горючим материалом. Во-вторых, она имеет очень
     высокий КПД по сравнению с любыми аналогами&nbsp;— газовыми или твердотопливными&nbsp;— засчет замкнутого нагнетательного контура,
-    который запускает отгоревший воздух вместе с частицами топлива в повторный цикл. Ну, и в-третьих, — она снабжена 
-    генератором, который не только питает этот самый контур, но и может подавать 5В на встроенный порт USB. 
+    который запускает отгоревший воздух вместе с частицами топлива в повторный цикл. Ну, и в-третьих, — она снабжена
+    генератором, который не только питает этот самый контур, но и может подавать 5В на встроенный порт USB.
     Настоящее высокотехнологичное чудо.
   link: http://biolitestove.com/products/campstove-bundle/
   picture: http://biolitestove.com/Media/BioLite/Campstove%20Bundle/BioLite-CampStove-System_02.jpg
   price: 5200
-  active: no 
+  active: no
   rating: 2
 
 - name: Пульсометр
   description: >
     Абсолютно любой пульсометр
-  active: no 
+  active: no
   price: 2000
   rating: 20
 
 - name: Платный аккаунт на Github
   description: >
-    Последнее время очень активно использую [Github](http://www.github.com), и хочу держать там пару-тройку 
+    Последнее время очень активно использую [Github](http://www.github.com), и хочу держать там пару-тройку
     закрытых репозиториев. Стоит это от $7 в месяц.
   active: yes
   price: 280
@@ -51,7 +58,7 @@
   active: no
 
 
-- name: Подарочные карты iTunes 
+- name: Подарочные карты iTunes
   description: >
     Нужны всегда, на любую сумму.
   link: https://money.yandex.ru/games/shop.xml?scid=5503
@@ -87,16 +94,16 @@
   rating: 5
 
 - name: Sublime Text 3 for Mac
-  description: > 
+  description: >
     Спасибо разработчикам: этот редактор работает в бесконечном триальном режиме. Но он настолько хорош, что пора узаконить лицензию.
-  active: no 
+  active: no
   link: https://www.sublimetext.com/buy
   price: 2800
   rating: 3
 
 - name: Strida LT
-  description: > 
-    Складной городской велосипед Strida — настоящая находка для мегаполиса. 
+  description: >
+    Складной городской велосипед Strida — настоящая находка для мегаполиса.
   active: yes
   price: 25500
   picture: http://static12.insales.ru/images/products/1/1542/38880774/1366116196794ltorangebig.jpg
@@ -105,8 +112,8 @@
 
 - name: Чемодан-рюкзак Newfeel 60 л
   description: >
-    Отличный вариант для путешествий вдвоем. Для города и самолета — это удобный чемодан на колесах, 
-    а для «автономок» — обычный рюкзак с лямками. Конечно, это не замена походному рюкзаку, однако для 
+    Отличный вариант для путешествий вдвоем. Для города и самолета — это удобный чемодан на колесах,
+    а для «автономок» — обычный рюкзак с лямками. Конечно, это не замена походному рюкзаку, однако для
     дальних переездов с большим количеством локальных перемещений — самое оно.
   active: yes
   price: 3499
@@ -116,7 +123,7 @@
   rating: 15
 
 - name: Сумка на колесах Deuter Helion 60
-  description: > 
+  description: >
     Гораздо более крутая (и дорогая) альтернатива предыдущей хотелке.
   picture: http://www.rykzakov.ru/files/products/2502_0.600x600w.jpg?7a4a57c51ce5652fcbc72054682c6d6d
   price: 9790
@@ -131,10 +138,10 @@
   link: http://www.electrovelosiped-kupit.ru/product_by_id/25968696
   active: yes
   rating: 1
-  
+
 - name: Телефон Nokia 1202
-  description: > 
-    Нужен простой телефон под обычную сим-карту в качестве резервного и походного средства связи.
+  description: >
+    Простой телефон под обычную сим-карту в качестве резервного и походного средства связи.
   picture: http://mdata.yandex.net/i?path=b1110120954__img_id6967541639381683541.jpg
   price: 1790
   link: "http://market.yandex.ru/model.xml?modelid=3570864&hid=91491"
@@ -144,12 +151,13 @@
   picture: http://www.fjallraven.com/media/catalog/product/cache/all/base/522x/17f82f742ffe127f42dca9de82fb58b1/F/2/F24210-220_0.jpg
   link: "https://brandshop.ru/backpack-fjallraven-foldsack-no-1-autumn-leaf/"
   price: 6990
-  description: > 
+  description: >
     Идеальный рюкзак для города и коротких путешествий: прочный, легкий, компактный и вместительный. Хочу именно цвета хаки или темно-серый: рыжий, или, к примеру, желтый найти&nbsp;— не проблема.
   active: yes
+  rating: 4
 - name: Мешок для спортивной обуви
   description: >
-    В Декатлоне продают под видом «сумки для детского фитнеса». Как показала практика, именно такой формат — просто мешок на шнурках, 
+    В Декатлоне продают под видом «сумки для детского фитнеса». Как показала практика, именно такой формат — просто мешок на шнурках,
     без молний и прочей фурнитуры — самый удобный.
   active: no
   price: 249

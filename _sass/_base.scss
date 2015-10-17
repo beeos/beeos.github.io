@@ -107,7 +107,7 @@ a {
 }
 
 .logo {
-    font-family: Avenir;
+    font-family: helvetica;
     margin-left: 0.3em;
     opacity: 0.5;
     span.capitel {
@@ -162,7 +162,7 @@ code {
     border-radius: 3px;
     font-weight: 100;
     color: #444;
-    background-color: $yellow-marker; 
+    background-color: $yellow-marker;
     /* font-family: Courier New; */
 }
 
@@ -213,7 +213,9 @@ pre {
     }
 }
 
-
+.centered {
+    text-align: center;
+}
 
 /**
  * Icons
@@ -237,10 +239,10 @@ pre {
     *.highlight {
         background-color: black;
     }
-}   
+}
 
 .right {
-    text-align: right; 
+    text-align: right;
 }
 
 hr {
@@ -385,12 +387,12 @@ blockquote p em {
         padding: 0em 0.2em 0.1em 0.2em;
         color: black;
     }
-    
+
     &.week {
         background-color: $week-color !important;
         color: $almost-white;
     }
-    
+
     &.date {
         border: 1px solid $brand-color;
         color: $date-color;
@@ -401,12 +403,12 @@ blockquote p em {
         background-color: $date-color !important;
         color: $almost-white;
     }
-    
+
     &.sprint {
         background-color: $sprint-color !important;
         color: $almost-white;
     }
-    
+
     &.quarter {
         background-color: $quarter-color !important;
         color: $almost-white;
@@ -507,7 +509,7 @@ table.tinytable {
             padding-top: 0.5em;
             border-bottom: none;
         }
-    }    
+    }
 }
 
 .toc {
@@ -540,7 +542,7 @@ table.tinytable {
 .toc li {
     padding: 0.2em 0.4em;
     font-size: x-small;
-    color: #999;    
+    color: #999;
 }
 
 .toc a {

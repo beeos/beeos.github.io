@@ -20,11 +20,11 @@
     &,
     &:visited {
         font-weight: 100;
-        color: lighten($brand-color, 40%);
     }
 
     &:hover {
         text-decoration: underline;
+        color: lighten($brand-color, 40%);
     };
 
     #site-icon {

@@ -3,14 +3,14 @@ layout: default
 ---
 
 <div class="home">
-
+{% assign months = site.data.locals.months %}
   <!-- h1 class="page-heading">{{ site.title }}</h1>
   <p class="calm">{{ site.subtitle }}</p -->
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts %}{% assign mno = post.date | date:'%m' %}{% assign month = months | where:'num', mno %}
       <li>
-        <span class="post-meta">{{ post.date | localize: "%d %B %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%d"}} {{month | map:'rp'}} {{ post.date | date: "%Y"}} года</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
