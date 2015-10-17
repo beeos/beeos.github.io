@@ -10,7 +10,9 @@
   active: no
   rating: 40
 
-- name: Язык шаблонов
+- name: Книга «Язык шаблонов»
+  description: >
+    Огромная, неудобная, дорогая, тяжелая и совершенно удивительная книга об архитектуре и проектировании.
   link: http://www.artlebedev.ru/everything/izdal/yazyk-shablonov/
   picture: http://img.artlebedev.ru/everything/izdal/yazyk-shablonov/yazyk-shablonov-cover.jpg
   price: 4500
@@ -24,7 +26,7 @@
   picture: http://static12.insales.ru/images/products/1/2746/40151738/a9743b2cc9ace8bc10a50130f554a347.jpg
   price: 2500
   active: yes
-  rating: 10
+  rating: 1
 
 - name: Biolite Campstove Bundle
   description: >
@@ -69,7 +71,7 @@
   link: http://www.apple.com/ru/shop/product/MD179ZM/A/монтажный-комплект-vesa-для-imac-и-мониторов-led-cinema-и-apple-thunderbolt?fnode=e2d1e3eb11be1d641dd0ed96b634ae33cfc39e86c931e27d5c8c6a869ee59356276bf82528a4b3bd25aa7e70a0dccc0efee96604a0525557d6770f79628a33b19b4f688dbdf8a656ed241d12fc6b09f403c530a9983ef8ebd47a08e9441cde8665e8db5b9d9d327d1e9976c06e45d987
   picture: http://store.storeimages.cdn-apple.com/4425/as-images.apple.com/is/image/AppleInc/aos/published/images/M/C4/MC434/MC434?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5%2C0.5%2C0%2C0&iccEmbed=0&layer=comp&.v=1400692017918
   active: yes
-  rating: 3
+  rating: 2
   price: 3490
 
 
@@ -137,7 +139,7 @@
   price: 49900
   link: http://www.electrovelosiped-kupit.ru/product_by_id/25968696
   active: yes
-  rating: 1
+  rating: 5
 
 - name: Телефон Nokia 1202
   description: >
@@ -146,7 +148,7 @@
   price: 1790
   link: "http://market.yandex.ru/model.xml?modelid=3570864&hid=91491"
   active: yes
-  rating: 2
+  rating: 20
 - name: Рюкзак Fjallraven Foldsack
   picture: http://www.fjallraven.com/media/catalog/product/cache/all/base/522x/17f82f742ffe127f42dca9de82fb58b1/F/2/F24210-220_0.jpg
   link: "https://brandshop.ru/backpack-fjallraven-foldsack-no-1-autumn-leaf/"
