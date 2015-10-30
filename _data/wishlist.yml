@@ -25,7 +25,7 @@
   link: http://www.kupitshahmaty.ru/collection/shahmatnye-nabory/product/shahmaty-turnirnye-35
   picture: http://static12.insales.ru/images/products/1/2746/40151738/a9743b2cc9ace8bc10a50130f554a347.jpg
   price: 2500
-  active: yes
+  active: no
   rating: 1
 
 - name: Biolite Campstove Bundle
@@ -155,7 +155,7 @@
   price: 6990
   description: >
     Идеальный рюкзак для города и коротких путешествий: прочный, легкий, компактный и вместительный. Хочу именно цвета хаки или темно-серый: рыжий, или, к примеру, желтый найти&nbsp;— не проблема.
-  active: yes
+  active: no
   rating: 4
 - name: Мешок для спортивной обуви
   description: >
