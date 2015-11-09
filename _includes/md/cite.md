@@ -1,1 +1,1 @@
-{% assign text = site.data.cites[include.cite].text %}{% assign author = site.data.cites[include.cite].author %}{{ text }}{% if author %} <span class="calm">/&nbsp;<nobr><em>{{ author }}</em></nobr></span>{% endif %}
+{% assign text = site.data.cites[include.cite].text %}{% assign author = site.data.cites[include.cite].author %}{{ text }}{% if author %} <span class="calm">—&nbsp;<nobr><em>{{ author }}</em></nobr></span>{% endif %}
