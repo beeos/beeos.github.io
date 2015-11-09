@@ -1,4 +1,4 @@
 {% assign text = include.cite.text | markdownify %}
 {% assign text = text | remove: '<p>' %}
 {% assign text = text | remove: '</p>' %}
-<p>{{ text }}{% if include.cite.author %} /&nbsp;<nobr><em><small>{{ include.cite.author }}</small></em></nobr>{% endif %}</p>
+<p>{{ text }}{% if include.cite.author %}<span class="calm">—&nbsp;<nobr><em><small>{{ include.cite.author }}</small></em></nobr></span>{% endif %}</p>
