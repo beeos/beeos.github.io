@@ -58,6 +58,17 @@ Rates.prototype.syncBaserate = function() {
 	console.log(xhr);
 	console.log("-------"); */
 	return xhr.remoteRate;
+
+};
+
+Rates.prototype.listRates = function () {
+	console.log(this.getTotal(1) + " — 1");
+	console.log(this.getTotal(2) + " — 2");
+	console.log(this.getTotal(3) + " — 3");
+	console.log(this.getTotal(5) + " — 5");
+	console.log(this.getTotal(20) + " — 20");
+	console.log(this.getTotal(40) + " — 40");
+	console.log(this.getTotal(160) + " — 160");
 }
 	
 function responseHandler() {
@@ -77,15 +88,9 @@ function smartRound(num, precision = 25, marketing = 0) {
 }
 
 
-rates1 = new	Rates();
-console.log(rates1);
-console.log(rates1.getTotal(1));
-console.log(rates1.getTotal(2));
-console.log(rates1.getTotal(3));
-console.log(rates1.getTotal(5));
-console.log(rates1.getTotal(20));
-console.log(rates1.getTotal(40));
-console.log(rates1.getTotal(160));
+myRates = new	Rates();
+console.log(myRates);
+myRates.listRates();
 
 </script>
 </head>
