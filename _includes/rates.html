@@ -12,10 +12,10 @@ var Rates = function () {
   this.baserateCurrency = "CHF";
   this.baserate = this.dynamicBaserate ? this.syncBaserate() : 75;
   
-  this.hourRate = smartRound(this.baserate * 50, -50);
+  this.hourRate = smartRound(this.baserate * 50, 50);
   this.isProgressive = true;
-  this.freeHoursCount = 1;
-  this.progressiveHoursCount = 4;
+  this.freeHoursCount = 0;
+  this.progressiveHoursCount = 8;
   this.progressiveRates = new Array();
   this.initProgressiveRates();
 };
@@ -43,7 +43,7 @@ Rates.prototype.getTotal = function(hours) {
 		accum += step;
 	}
 	return accum;
-}
+};
 
 Rates.prototype.syncBaserate = function() {
 	var path = "https://query.yahooapis.com/v1/public/yql?q=select+*+from+yahoo.finance.xchange+where+pair+=+%22" + this.baserateCurrency + this.currency + "%22&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=";
