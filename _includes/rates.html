@@ -1,0 +1,95 @@
+<html>
+<head>
+<script type="text/javascript">
+
+var remoteRate = 0;
+var Rates = function () {
+  console.log('Rates instance created');
+  this.currency = "RUB";
+  
+  this.dynamicBaserate = true;
+  this.baserateCurrency = "CHF";
+  this.baserate = this.dynamicBaserate ? this.syncBaserate() : 75;
+  
+  this.hourRate = smartRound(this.baserate * 50, -50);
+  this.isProgressive = true;
+  this.freeHoursCount = 1;
+  this.progressiveHoursCount = 4;
+  this.progressiveRates = new Array();
+  this.initProgressiveRates();
+};
+
+Rates.prototype.initProgressiveRates = function() {
+	if (this.isProgressive) {
+		var accum = 0;
+		for (i=this.progressiveHoursCount; i > 0; i--) {
+			var step = smartRound(this.hourRate / i, -50, 1); 
+			this.progressiveRates.push(step);
+			accum += step;
+		}
+	}
+
+	for (i=0; i<this.freeHoursCount; i++) {
+		this.progressiveRates.unshift(0);
+	}
+
+};
+
+Rates.prototype.getTotal = function(hours) {
+	var accum = 0;
+	for (i=0; i<hours; i++) {
+		var step = this.progressiveRates[i] != undefined ? this.progressiveRates[i] : this.hourRate;
+		accum += step;
+	}
+	return accum;
+}
+
+Rates.prototype.syncBaserate = function() {
+	var path = "https://query.yahooapis.com/v1/public/yql?q=select+*+from+yahoo.finance.xchange+where+pair+=+%22" + this.baserateCurrency + this.currency + "%22&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=";
+	var xhr = new XMLHttpRequest();
+	
+  xhr.onreadystatechange = responseHandler;
+
+	xhr.open('GET', path, false);
+	xhr.send();
+
+	/* console.log("-------");
+	console.log(xhr);
+	console.log("-------"); */
+
+	return xhr.remoteRate;
+	// return remoteRate;
+}
+	
+function responseHandler() {
+	if (this.readyState == 4 ) {
+		response = JSON.parse(this.responseText);
+		remoteRate = response.query.results.rate.Rate;
+		console.log(this);
+		this.remoteRate = parseFloat(remoteRate);
+	}
+}
+
+function smartRound(num, precision = 25, marketing = 0) {
+	// NOT BUG BUT FEATURE: If precision < 0, the function will floor the result by precision instead of ceil
+	// marketing = 1 option lets to get tiny reduction to final result for not looking so scary :)
+	var q = num / precision >> 0;
+	return  q * precision + (precision > 1 ? precision : 0) - marketing;
+}
+
+
+rates1 = new	Rates();
+console.log(rates1);
+console.log(rates1.getTotal(1));
+console.log(rates1.getTotal(2));
+console.log(rates1.getTotal(3));
+console.log(rates1.getTotal(5));
+console.log(rates1.getTotal(20));
+console.log(rates1.getTotal(40));
+console.log(rates1.getTotal(160));
+
+</script>
+</head>
+<body>
+</body>
+</html>
