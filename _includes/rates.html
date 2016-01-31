@@ -11,8 +11,9 @@ var Rates = function () {
   this.dynamicBaserate = true;
   this.baserateCurrency = "CHF";
   this.baserate = this.dynamicBaserate ? this.syncBaserate() : 75;
+  this.marketingBias = 0;
   
-  this.hourRate = smartRound(this.baserate * 50, 50);
+  this.hourRate = smartRound(this.baserate * 50, 50, this.marketingBias);
   this.isProgressive = true;
   this.freeHoursCount = 0;
   this.progressiveHoursCount = 8;
@@ -24,7 +25,7 @@ Rates.prototype.initProgressiveRates = function() {
 	if (this.isProgressive) {
 		var accum = 0;
 		for (i=this.progressiveHoursCount; i > 0; i--) {
-			var step = smartRound(this.hourRate / i, -50, 1); 
+			var step = smartRound(this.hourRate / i, -50, this.marketingBias); 
 			this.progressiveRates.push(step);
 			accum += step;
 		}
@@ -39,7 +40,7 @@ Rates.prototype.initProgressiveRates = function() {
 Rates.prototype.getTotal = function(hours) {
 	var accum = 0;
 	for (i=0; i<hours; i++) {
-		var step = this.progressiveRates[i] != undefined ? this.progressiveRates[i] : this.hourRate;
+		var step = (this.progressiveRates[i] != undefined) ? this.progressiveRates[i] : this.hourRate;
 		accum += step;
 	}
 	return accum;
@@ -62,14 +63,17 @@ Rates.prototype.syncBaserate = function() {
 };
 
 Rates.prototype.listRates = function () {
-	console.log(this.getTotal(1) + " — 1");
-	console.log(this.getTotal(2) + " — 2");
-	console.log(this.getTotal(3) + " — 3");
-	console.log(this.getTotal(5) + " — 5");
-	console.log(this.getTotal(20) + " — 20");
-	console.log(this.getTotal(40) + " — 40");
-	console.log(this.getTotal(160) + " — 160");
+	var timeSlots = [1, 2, 3, 5, 8, 12, 20, 40 ,160];
+	var c = timeSlots.length;
+	console.log(timeSlots);
+	for (k=0; k<c ; k++) {
+		slot = timeSlots[k];
+		value = this.getTotal(slot);
+		console.log(k + ": " + value + ((value < 10000) ?"\t":"") + "\t— " + slot + "H");
+	}
 }
+
+
 	
 function responseHandler() {
 	if (this.readyState == 4 ) {
@@ -80,11 +84,11 @@ function responseHandler() {
 	}
 }
 
-function smartRound(num, precision = 25, marketing = 0) {
+function smartRound(num, precision = 25, marketingBias = 0) {
 	// NOT BUG BUT FEATURE: If precision < 0, the function will floor the result by precision instead of ceil
 	// marketing = 1 option lets to get tiny reduction to final result for not looking so scary :)
 	var q = num / precision >> 0;
-	return  q * precision + (precision > 1 ? precision : 0) - marketing;
+	return  q * precision + (precision > 1 ? precision : 0) - marketingBias;
 }
 
 
