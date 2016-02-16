@@ -103,13 +103,13 @@
   price: 2800
   rating: 3
 
-- name: Strida LT
+- name: Strida SX
   description: >
     Складной городской велосипед Strida — настоящая находка для мегаполиса.
   active: yes
-  price: 25500
+  price: 40700
   picture: http://static12.insales.ru/images/products/1/1542/38880774/1366116196794ltorangebig.jpg
-  link: http://dreambikes.ru/product_by_id/32492584
+  link: http://www.10ballov.ru/velosipedy/velosiped-strida-strida-sx-32766.html
   rating: 25
 
 - name: Чемодан-рюкзак Newfeel 60 л
