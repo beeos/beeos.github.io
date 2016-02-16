@@ -105,10 +105,10 @@
 
 - name: Strida SX
   description: >
-    Складной городской велосипед Strida — настоящая находка для мегаполиса.
+    Складной городской велосипед Strida — настоящая находка для мегаполиса. Цвет, конечно, нужен какой-то более разумный, чем на картинке.
   active: yes
   price: 40700
-  picture: http://static12.insales.ru/images/products/1/1542/38880774/1366116196794ltorangebig.jpg
+  picture: http://www.strida.ru/upload/1427950432586big.jpg
   link: http://www.10ballov.ru/velosipedy/velosiped-strida-strida-sx-32766.html
   rating: 25
 
