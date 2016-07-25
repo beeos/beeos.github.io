@@ -585,7 +585,12 @@ ol li ul li {
 }
 
 .wblockquote {
-    border-left: 4px solid lighten($wdarkgreen-color,10%);
-    background-color: $wblockquote-color;
-    color: $wdarkgreen-color;
+    color: $brand-color;
+}
+
+.wsubheader {
+    font-size: 1.5em;
+    color: $wgreen-color;
+    text-decoration: italic;
+    text-align: center;
 }
