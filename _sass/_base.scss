@@ -564,3 +564,28 @@ table.tinytable {
     background: $second-color;
     box-shadow: inset -2px 0px 4px -2px #000;
 }
+
+dl dd {
+    padding-bottom: 1em;
+}
+
+ol li ul li {
+    list-style-type: square;
+}
+
+.wfont {
+    font-family: 'Bad Script';
+    //font-family: 'PT Sans'
+}
+
+.wheader {
+    font-size: 42px;
+    color: $wgreen-color;
+    font-weight: 500;
+}
+
+.wblockquote {
+    border-left: 4px solid lighten($wdarkgreen-color,10%);
+    background-color: $wblockquote-color;
+    color: $wdarkgreen-color;
+}

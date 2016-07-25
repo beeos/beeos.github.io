@@ -6,7 +6,7 @@
     <!-- span class="fa-stack" id="site-icon">
       <i class="fa fa-square-o fa-stack-2x"></i>
       <i class="fa fa-magic fa-stack-1x"></i>
-    </span --><!-- i class="fa fa-lightbulb-o"></i --><i class="fa fa-circle-o-notch fa-rotate-45"></i><span class="logo"><span class="capitel">Дворец памяти</span></a>
+    </span --><!-- i class="fa fa-lightbulb-o"></i --><span class="logo"><span class="capitel">Дворец памяти</span></a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -18,9 +18,11 @@
       </a>
       <div class="trigger">
         {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
+          {% unless page.hidden %}
+            {% if page.title %}
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+          {% endunless %}
         {% endfor %}
       </div>
     </nav>

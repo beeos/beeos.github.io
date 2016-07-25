@@ -13,9 +13,17 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
+$wdarkgreen-color: #2e3c1a;
+$wgreen-color: #49613f;
+$wbluegreen-color: #628c77;
+$wbrown-color: #765149;
+$worange-color: #d1622b;
+$wbeige-color: #f0e9e7;
+
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2980b9;
+//$brand-color:      #2980b9;
+$brand-color: $wbluegreen-color;
 $brand-color-dark: darken($brand-color, 15%);
 $second-color:     lighten($brand-color, 15%);
 $brand-color-light: lighten($brand-color, 30%);
@@ -42,6 +50,10 @@ $year-color: 		#c0392b;
 $week-hl-color: 	darken($week-color, 20%);
 $week-dim-color: 	lighten($week-color, 10%);
 
+
+
+
+$wblockquote-color: lighten($wdarkgreen-color, 70%);
 
 // Using media queries with like this:
 // @include media-query($palm) {
