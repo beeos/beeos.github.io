@@ -1,6 +1,7 @@
 ---
 layout: plain
 title: Свадьба Димы и Наташи
+description: Свадьба Димы и Наташи 25 августа 2016 года
 permalink: /wedding/
 hidden: yes
 ---
