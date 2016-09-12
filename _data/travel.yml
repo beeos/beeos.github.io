@@ -97,6 +97,16 @@
 - {city: Равенна, country: Италия}
 - {city: Триест, country: Италия}
 - {city: Чезена, country: Италия}
+- {city: Чезенатико, country: Италия}
+- {city: Флоренция, country: Италия}
+- {city: Урбино, country: Италия}
+- {city: Градара, country: Италия}
+- {city: Виареджжо, country: Италия}
+- {city: Монтероссо-аль-Маре, country: Италия}
+- {city: Портовенере, country: Италия}
+- {city: "Сант-Арканджело ди Романья", country: Италия}
+- {city: Сан-Марино, country: Сан-Марино}
+- {city: Ватикан, country: Ватикан}
 
 ## Иордания
 - {city: Маан, country: Иордания, date: [2010-01-05]}
