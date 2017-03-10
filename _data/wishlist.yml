@@ -59,7 +59,6 @@
   rating: 5
   active: no
 
-
 - name: Подарочные карты iTunes
   description: >
     Нужны всегда, на любую сумму.
@@ -73,7 +72,6 @@
   active: no
   rating: 2
   price: 3490
-
 
 - name: Спортивный шейкер
   description: >
@@ -148,6 +146,7 @@
   link: "http://market.yandex.ru/model.xml?modelid=3570864&hid=91491"
   active: no
   rating: 20
+
 - name: Рюкзак Fjallraven Foldsack
   picture: http://www.fjallraven.com/media/catalog/product/cache/all/base/522x/17f82f742ffe127f42dca9de82fb58b1/F/2/F24210-220_0.jpg
   link: "https://brandshop.ru/backpack-fjallraven-foldsack-no-1-autumn-leaf/"
@@ -156,6 +155,7 @@
     Идеальный рюкзак для города и коротких путешествий: прочный, легкий, компактный и вместительный. Хочу именно цвета хаки или темно-серый: рыжий, или, к примеру, желтый найти&nbsp;— не проблема.
   active: no
   rating: 4
+
 - name: Мешок для спортивной обуви
   description: >
     В Декатлоне продают под видом «сумки для детского фитнеса». Как показала практика, именно такой формат — просто мешок на шнурках,
@@ -165,6 +165,7 @@
   link: http://www.decathlon.ru/sumka-gymy-det-id_8239308.html
   picture: http://www.decathlon.ru/media/823/8239308/big_bcaeebe30c4543a6841f590d69c864e5.jpg
   rating: 100
+
 - name: Брелок Leatherman Style CS
   description: > 
     Взамен утраченного в Борисполе на предполетном контроле. Маленький да удаленький брелок на все случаи жизни: и ногти постричь, и провода оголить, и колбаски нарезать. 
