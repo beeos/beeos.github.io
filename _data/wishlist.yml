@@ -177,6 +177,7 @@
 
 - name: Электрический самокат Xiaomi MiJia Electric Scooter
   price: 21700
+  active: yes
   rating: 1
   picture: https://www.electrogor.ru/img/work/nomencl/86148.jpg
   link: https://www.electrogor.ru/xiaomi/gadzhety.html/nid/86148
