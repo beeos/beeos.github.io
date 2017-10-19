@@ -135,7 +135,7 @@
   picture: http://static12.insales.ru/images/products/1/5971/30521171/Air-izom.jpg
   price: 49900
   link: http://www.electrovelosiped-kupit.ru/product_by_id/25968696
-  active: yes
+  active: no
   rating: 5
 
 - name: Телефон Nokia 1202
@@ -174,3 +174,9 @@
   picture: http://top-knife.ru/images/product_images/popup_images/24_0.jpg
   price: 2470
   rating: 1
+
+- name: Электрический самокат Xiaomi MiJia Electric Scooter
+  price: 21700
+  rating: 1
+  picture: https://www.electrogor.ru/img/work/nomencl/86148.jpg
+  link: https://www.electrogor.ru/xiaomi/gadzhety.html/nid/86148
