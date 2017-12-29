@@ -191,20 +191,20 @@
 
 - name: Нож Victorinox Ranger Grip 79
   price: 3830
-  active: yes
+  active: no
   rating: 3
   picture: https://static12.insales.ru/images/products/1/4050/36089810/SAK_0_9563_MC__S1.jpg
   link: http://www.myvictorinox.ru/collection/katalog-1-1405517783/product/nozh-victorinox-rangergrip-79-130-mm-12-funk-krasnyy
 
 - name: Фонарь налобный Panda 2R
   price: 2190
-  active: yes
+  active: no
   rating: 5
   picture: https://ozon-st.cdn.ngenix.net/multimedia/audio_cd_covers/1019137714.jpg
   link: https://www.ozon.ru/context/detail/id/141170686/
 
 - name: Точильный станок Ganzo Touch Pro Ultra
-  active: yes
+  active: no
   price: 3250
   rating: 4
   picture: https://img.nozhikov.ru/images/products/1/4331/58724587/8858.750x0.jpg
