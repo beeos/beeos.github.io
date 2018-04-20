@@ -184,7 +184,7 @@
 
 - name: Нож Victorinox Explorer
   price: 3040
-  active: yes
+  active: no
   rating: 2
   picture: https://ozon-st.cdn.ngenix.net/multimedia/audio_cd_covers/1013884659.jpg
   link: https://www.ozon.ru/context/detail/id/34986344/
