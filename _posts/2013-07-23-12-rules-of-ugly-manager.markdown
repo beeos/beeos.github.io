@@ -7,7 +7,7 @@ original: http://habrahabr.ru/company/adv/blog/187566/
 originally-posted-at: на Хабре
 ---
 
-![12 правил плохого менеджера](http://habrastorage.org/storage2/639/820/3a6/6398203a6d559afd4d5f23338b2a8c27.jpg)
+![12 правил плохого менеджера](https://habrastorage.org/r/w1560/storage2/639/820/3a6/6398203a6d559afd4d5f23338b2a8c27.jpg)
 
 ### Никогда не планируйте
 
