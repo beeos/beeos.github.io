@@ -19,24 +19,19 @@
      {% endif %}
    
      <li>{{ place.city }}
-     {% if dates != null %}
-       {% assign previous_period = "" %}
-       {% for date in dates reversed %}
-         {% comment %} Создаем уникальный ключ для текущей даты (МесяцГод) {% endcomment %}
-         {% assign current_period = date | date: '%m-%Y' %}
-         
-         {% comment %} Сравниваем с предыдущим шагом цикла {% endcomment %}
-         {% if current_period != previous_period %}
-           {% assign mno = date | date:'%m' %}
-           {% assign month = months | where:'num', mno %}
+     {%- if dates != null -%}
+       {%- assign previous_period = "" -%}
+       {%- for date in dates reversed -%}
+         {%- assign current_period = date | date: '%m-%Y' -%}
+         {%- if current_period != previous_period -%}
+           {%- assign mno = date | date:'%m' -%}
+           {%- assign month = months | where:'num', mno -%}
            <span class="calm">, {{ month | map:'name' }} {{ date | date: '<b>%Y</b>' | lowercase }}</span>
-           
-           {% comment %} Запоминаем текущий период, чтобы не выводить его повторно {% endcomment %}
-           {% assign previous_period = current_period %}
-         {% endif %}
-       {% endfor %}
-     {% endif %}
-     {% if place.description != null %}<br/><small>{{ place.description }}</small>{% endif %}</li>
+           {%- assign previous_period = current_period -%}
+         {%- endif -%}
+       {%- endfor -%}
+     {%- endif -%}
+     {%- if place.description != null -%}<br/><small>{{ place.description }}</small>{%- endif -%}</li>
    {% endfor %}
    </ul>
 {% endfor %}
